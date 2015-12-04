@@ -88,25 +88,19 @@ queue()
     .await(dataLoaded);
 
 //Generators
-//TODO: set up a mercator projection, and a d3.geo.path() generator
-//Center the projection at the center of Boston
-
-/*var projection = d3.geo.mercator()
-    .center(0,0)
-    .translate([(width/2)-75,height/2])
-    .scale(200000);
-
-var path = d3.geo.path().projection(projection);*/
-
-
-
-var projection = d3.geo.mercator()
-    .scale((width + 1) / 2 / Math.PI)
-    .translate([width / 2, height / 2])
-    .precision(.1);
-
-var path = d3.geo.path()
-    .projection(projection);
+//
+var partition =  d3.layout.partition()
+    .size([width,height]) //how big is ALL the rectangle (with subdivisions)
+    .children (function(d){
+    // given the hieararchy data, how to go down the tree
+    return (d.values);
+})
+    .value(function(d){
+        return (d.year)
+    })
+    .sort(function (a,b){
+        return a.key - b.key;
+    });
 
 //PARSE
 function parseData (d) {
@@ -146,26 +140,6 @@ function parseMap (world){
 
 //DataLoaded - nestedData
 function dataLoaded (error,data,perCont) {
-    /*d3.json("/data/countries.json", function(error, world) {
-        //d.latlng: Array[2]
-        console.log(world)
-        var countries = topojson.feature(world, world.objects.countries).features,
-            neighbors = topojson.neighbors(world.objects.countries.geometries);
-
-        plot2.selectAll(".country")
-            .data(countries)
-            .enter().insert("path", ".graticule")
-            .attr("class", "country")
-            .attr("d", path)
-            .style("fill", function(d, i) {
-               if (d.id == 50) {
-                   console.log(d);return "red"
-               } else if (d.id==51) {return "blue"}
-                else if (d.id==52){return "yellow"}
-                else if(d.id==53){return "green"}
-            });
-    });*/
-
 
     //TODO PLOT 1 - EVOLUTION PER YEAR AND CONTINENT STACKED BARS
     //console.log(perCont[0]);
@@ -248,64 +222,62 @@ function dataLoaded (error,data,perCont) {
     //console.log("data", data);
     data.sort(function(a, b) { return a.date - b.date || b.spaniards - a.spaniards}); //sort by date, then by spaniards
     //console.log("data", data);
-    //TODO PLOT 1 - EVOLUTION PER YEAR
-
-    //nest by year
-    var dataSepOnly = data.filter(function(d))
-
-    //console.log("by years", nestedData);
-
-
-    var nestedDataYear = d3.nest()
-        .key(function (d){
-            if ((d.month=="September")) {return true}else{return false}})
-        .key(function (d){
-            return d.date
-        })
-        .key(function (d){return d.continent})
-        .key(function (d){return d.country})
-        .rollup(function(d) {
-            return {continent: d.continent,
-            "total_sum":d3.sum(d, function(g) {return g.spaniards; })}})// roll up = sum | total spaniards per year and month
-        .entries(data);
-    nestedDataYear.shift();
-    nestedYear = nestedDataYear[0].values;
-
-
-
 
 //TODO PLOT 2
-// I WANT TO DRAW A MERCATOR MAP
-    var graph2 = plot2.selectAll(".regions")
-        .data(nestedYear)
-        .enter()
-        .append("g")
-        .attr("class", "regions");
+    //nest by year
+    var dataSepOnly = data.filter(function(d){if ((d.month=="September")) {return true}else{return false}});
+    console.log(dataSepOnly);
 
-    graph2.selectAll(".countries")
-        .data(nestedYear)
-        .enter()
-        .append("circle")
-        .attr("class", "countries")
-        .attr("r", function(d,i){
-            console.log(d) // max size is from Argentina 391835
-            console.log("countries", d.values[i].values.total_sum);
-            radius = d.values[i].values.total_sum;
-            return scaleR(radius);
-        })
-        .style("fill", scaleColor())
-        .attr("cx", function (d){
-            d3.json("/data/countries.json", function(error, world) {
-                console.log(world[latlng])
-                var x = function (world,i){return world[i].latlng[0]};
-                var y = function (world,i){return world[i].latlng[1]};
-                //console.log("x",x)
-                //console.log("y",y)
-                //d.latlng: Array[2]
-                //console.log("hello", world[i].latlng)
-            })
+    var nestedData = d3.nest()
+        .key(function (d){return d.year})
+        .key(function(d){return d.continent})
+        .key(function(d){return d.country})
+        .entries(dataSepOnly);
 
-        })
+
+    nestedData.forEach(function(eachYear) {
+            eachYear.values.forEach(function(eachContinent){
+                    eachContinent.values.forEach(function(eachCountry){
+                            /*spainiards_values = eachCountry.values.map(function(d){
+                                   return d;
+                                }
+                            )
+                            sum_county = d3.sum(spainiards_values, function(d){
+                                return d.spaniards;
+                            })
+                            eachCountry.total = sum_county;*/
+
+
+
+                            eachCountry.total = d3.sum(eachCountry.values.map(function(d){
+                                    return d;
+                                }
+                            ), function(d){
+                                return d.spaniards;
+                            });
+                        }
+
+                    )
+
+                }
+
+            )
+        }
+
+
+    );
+
+    console.log(nestedData);
+
+
+
+
+
+// I WANT TO DRAW A TREEMAP
+    var hierarchy = {
+        key: "year",
+        values: nestedData
+    };
 
 
 }
