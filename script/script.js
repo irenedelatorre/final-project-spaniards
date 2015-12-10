@@ -1,4 +1,4 @@
-// CANVAS
+// TODO CANVAS 1
 
 var margin = {t:50,r:100,b:50,l:75};
 var width = document.getElementById('plot').clientWidth - margin.r - margin.l,
@@ -12,30 +12,17 @@ var plot = d3.select('#plot')
     .attr('class','canvas')
     .attr('transform','translate('+margin.l+','+margin.t+')');
 
-
-var width2 = document.getElementById('plot2').clientWidth - margin.r - margin.l,
-    height2 = document.getElementById('plot2').clientHeight - margin.t - margin.b;
-
-var plot2=d3.select('#plot2')
-    .append('svg')
-    .attr('width',width2+margin.r+margin.l)
-    .attr('height',height2 + margin.t + margin.b)
-    .append('g')
-    .attr('class','canvas2')
-    .attr('transform','translate('+margin.l+','+margin.t+')');
-
-
 //Formats
 var dateFormat = d3.time.format('%Y-%m-%d');
 var yearformat = d3.time.format("%Y");
 var numberformat = d3.format(",");
 
-// SCALES FIRST GRAPH
+// Scales
 var startDate = new Date(2002,1,1),
     endDate = new Date(2015,11,1);
 var scaleX = d3.time.scale().domain([startDate,endDate]).range([0, width-5]),
     scaleY = d3.scale.linear().domain([0,2000000]).range([height,0]),
-    scaleColorBars = d3.scale.ordinal().range(["#d62d2d","#a12f37","#6c3142","013456","36324c"]);
+    scaleColorBars = d3.scale.ordinal().range(["#9CCB3C","#1E8FCE","#8D4098","#F7B219","#E33425"]);
 
 //Axis1
 var axisX1 = d3.svg.axis()
@@ -59,6 +46,7 @@ var axisY = d3.svg.axis()
     .tickSize(-width)
     .scale(scaleY);
 
+
 //Draw Axis1
 plot.append('g')
     .attr('class','axis axis-x')
@@ -74,15 +62,72 @@ plot.append('g')
     .attr('class','axis axis-y')
     .call(axisY);
 
+// draw legend
+legendData = [{color:"#9CCB3C", country:"America"},{color:"#1E8FCE",country:"Europe"},{color:"#8D4098",country:"Asia"}, {color:"#E33425", country:"Oceania"},{color:"#F7B219", country:"Africa"}];
 
-// SCALES SECOND GRAPH
+var legend = d3.select('#legend1').append('svg')
+    .attr('width',width+margin.r+margin.l)
+    .append("g")
+    .attr("class","legend")
+    .selectAll('.legendElement').data(legendData).enter();
+
+legend
+    .append('rect').attr('class', 'legendElement')
+    .attr('x', function(d,i){ return i * 100;})
+    .attr('y', 15)
+    .attr('width', '15px')
+    .attr('height','15px')
+    .style('fill', function (d) {
+        console.log(d);
+        return d.color;
+    });
+legend.append("text")
+    .attr('class', 'legendElement')
+    .text(function (d){return d.country})
+    .attr("x", function(d,i){return 27+(i*100)})
+    .attr('y', 27);
+
+// TODO CANVAS - 2
+var width2 = document.getElementById('plot2').clientWidth - margin.r - margin.l,
+    height2 = document.getElementById('plot2').clientHeight - margin.t - margin.b;
+
+var plot2=d3.select('#plot2')
+    .append('svg')
+    .attr('width',width2+margin.r+margin.l)
+    .attr('height',height2 + margin.t + margin.b)
+    .append('g')
+    .attr('class','canvas2')
+    .attr('transform','translate('+margin.l+','+margin.t+')');
+
+// draw legend
+var legend2 = d3.select('#legend2').append('svg')
+    .attr('width',width+margin.r+margin.l)
+    .append("g")
+    .attr("class","legend")
+    .selectAll('.legendElement').data(legendData).enter();
+
+legend2
+    .append('circle').attr('class', 'legendElement')
+    .attr('cx', function(d,i){ return 7+(i * 100);})
+    .attr('cy', 15)
+    .attr('r', '7px')
+    .style('fill', function (d) {
+        console.log(d);
+        return d.color;
+    });
+legend2.append("text")
+    .attr('class', 'legendElement')
+    .text(function (d){return d.country})
+    .attr("x", function(d,i){return 27+(i*100)})
+    .attr('y', 19);
+
+// Scales
 var scaleR = d3.scale.sqrt().domain([0,391835]).range([2,100]),
     scaleColor= d3.scale.ordinal().range(["#9CCB3C","#1E8FCE","#E33425","#8D4098","#F7B219"]);
 
-
+// Sunburst layout
 var radius = Math.min (width2,height2)/2;
 var partition =  d3.layout.partition()
-    //.sort(function(a,b){return b[13].total - a[13].total})
     .size([2*Math.PI, radius*radius])
     .children (function(d){
     return (d.values);
@@ -95,33 +140,30 @@ var arc = d3.svg.arc()
     .innerRadius(function(d) { return Math.sqrt(d.y); })
     .outerRadius(function(d) { return Math.sqrt(d.y + d.dy); });
 
-
-//Import
+//IMPORT DATASETS
 queue()
     .defer(d3.csv,'/data/spaniards_registered_abroad-CERA.csv',parseData)
     .defer(d3.csv,'/data/spaniards_registered_abroad-CERA_continents-nov.csv',parseDataCont)
     .await(dataLoaded);
 
-//Generators
-//
 var continent_names = [];
+
+
 //DataLoaded - nestedData
 function dataLoaded (error,data,perCont) {
 
     //TODO PLOT 1 - EVOLUTION PER YEAR AND CONTINENT STACKED BARS
-    //console.log(perCont[0]);
+
     scaleColor.domain(d3.keys(perCont[0]).filter(function(key) { return key !== "date"; }));
 
     perCont.forEach(function(d) {
         var y0 = 0;
-        d.places = scaleColor.domain().map(function(name) {
-            return {name: name, y0: y0, y1: y0 += +d[name],totals: +d[name],month: d.date}; });
+        d.places = scaleColor.domain().map(function(name) {return {name: name, y0: y0, y1: y0 += +d[name],totals: +d[name],month: d.date}; });
         d.totalSpaniards = d.places[d.places.length - 1].y1;
     });
     perCont.sort(function(a, b) {return a.totalSpaniards - b.totalSpaniards});
 
-    plot = plot.append("g").attr("class", "graph1")
-        .attr('transform','translate('+5+',0)');
+    plot = plot.append("g").attr("class", "graph1").attr('transform','translate('+5+',0)');
 
     var graph1 = plot.selectAll(".dates")
         .data(perCont)
@@ -144,6 +186,7 @@ function dataLoaded (error,data,perCont) {
 
     graph1.selectAll(".continents")
         .data(function (d){return d.places})
+        .attr("data-legend",function(d) { return d.places})
         .enter()
         .append('rect')
         .attr("class","continents")
@@ -161,6 +204,7 @@ function dataLoaded (error,data,perCont) {
             tooltip.select("#place").html(d.name);
             tooltip.select("#number1").html(numberformat(d.totals))
         })
+
         .on("mouseleave", function(d){
             d3.select(this).style('opacity',0.65);
             d3.select(".custom-tooltip").transition()
@@ -169,21 +213,20 @@ function dataLoaded (error,data,perCont) {
 
         .on("mousemove", function(d){
             d3.select(this).style('opacity',1);
-
             var xy = d3.mouse(document.getElementById("plot")); // tooltip to move with mouse movements
             var left = xy[0],
                 top = xy[1];
             d3.select(".custom-tooltip")
-                .style("left", left+75+ "px")
-                .style("top", top +75+ "px")
+                .style("left", left+50+ "px")
+                .style("top", top +400+ "px")
         })
+
         .transition()
         .duration(1000)
         .attr("width", "5px")
         .attr("height", function(d){return scaleY(d.y0)-scaleY(d.y1)})
         .style("fill", function (d){
-            return scaleColor(d.name)});
-
+            return scaleColorBars(d.name)});
 
     data.sort(function(a, b) { return a.date - b.date || b.spaniards - a.spaniards}); //sort by date, then by spaniards
 
@@ -199,7 +242,6 @@ function dataLoaded (error,data,perCont) {
         .key(function(d){return d.countryCode})
         .entries(dataMonthOnly);
 
-
     nestedData.forEach(function(eachYear) {
             eachYear.values.forEach(function(eachContinent){
                     continent_names.push(eachContinent.key)
@@ -212,8 +254,6 @@ function dataLoaded (error,data,perCont) {
                              return d.spaniards;
                              })
                              eachCountry.total = sum_county;*/
-
-
 
                             eachCountry.total = d3.sum(eachCountry.values.map(function(d){
                                     return d;
@@ -230,18 +270,16 @@ function dataLoaded (error,data,perCont) {
         }
     );
 
-    console.log(nestedData);
+    //console.log("nested", nestedData);
 
 
-// I WANT TO DRAW A SUNBURST PARTITION
-//    var continent_names = nestedData.map(function(d){return d.values.key})
-    console.log(continent_names)
+// Sunburst Diagram
+
     plot2 = plot2.append("g").attr("class","graph2")
         .attr("transform", "translate(" + width / 2 + "," + height * 0.7 + ")");
 
     nestedData0 = nestedData[13];
     drawGraph(nestedData0);
-
 
     d3.selectAll('.btn').on('click',function(){
         var type = d3.select(this).attr('id');
@@ -292,16 +330,19 @@ function dataLoaded (error,data,perCont) {
 }
 
 function drawGraph (dataArray){
-    var graph2 = plot2.datum(dataArray).selectAll(".slices")
-        .data(partition.nodes);
+
+    var nodes = partition.nodes(dataArray)
+        .filter(function(d) {
+            return (d.dx > 0.0005); // 0.005 radians = 0.29 degrees
+        });
+
+    var graph2 = plot2.datum(dataArray)
+        .selectAll("path")
+        .data(nodes);
 
     scaleColor.domain(continent_names);
 
     var graph2Enter= graph2.enter()
-        .append("g")
-        .attr("class","slices");
-
-    graph2Enter
         .append("path")
         .attr("class", "partition")
         .attr("display", function(d) { return d.depth ? null : "none"; }) // hide inner ring
@@ -313,12 +354,69 @@ function drawGraph (dataArray){
         .style("fill", function(d,i) {
             if(d.depth == 1){ return scaleColor(d.key) } else if (d.depth == 2){return scaleColor(d.parent.key)} else if (d.depth == 3) {return scaleColor(d.parent.parent.key)}
         })
-        .style("opacity", 1)
+        .style("opacity", 1).call(myMouseOver)
         .each(stash)
-        .on("mouseover", mouseover)
+        .on("mouseover", function(d,i){
+            console.log(d,i)
+            var tooltip2 = d3.select("#explanationSunburst");
+            tooltip2.transition().style("opacity", 1);
+            var this_key = d.key;
+            var thisD = d
+            if (d.depth==1){tooltip2.select("#where").text(function (d,i){
+                //console.log(nodes[i].key);
+                console.log(d,nodes)
+                continentName=this_key;
+                return continentName})}
+            else if (d.depth==2){tooltip2.select("#where").text(function (d,i){
+                //console.log(thisD.children[i].country)
+                countryName = (thisD.children[i].country);
+                return countryName})}
+            else if (d.depth==3){
+                tooltip2.select("#where").text(function (d,i){
+                    //console.log(this_key)
+                consulateName=(thisD["consulate"]);
+                return consulateName} )}
+            /*else {tooltip2.select("#where").text(function (d){
+                return ""} )}*/
+            return mouseover;
+        })
         .on("mousemove",mouseover);
 
-    graph2Enter
+
+    function myMouseOver (selection){
+        console.log(selection)
+    }
+    d3.select(".canvas2").on("mouseleave",mouseleave);
+
+    totalSPA = graph2.node().__data__.value;
+
+    //exit
+    graph2.exit().transition().remove();
+
+    //update
+    graph2
+        .transition()
+        .duration(0)//If on, movements without sense
+        //.attr("d", arc)
+        .each(stash)
+        .attrTween("d", arcTween)
+        .style("fill", function(d,i) {
+            if(d.depth == 1){ return scaleColor(d.key) } else if (d.depth == 2){return scaleColor(d.parent.key)} else if (d.depth == 3) {return scaleColor(d.parent.parent.key)}
+        });
+
+
+    //TEXT
+    // For efficiency, filter nodes to keep only those large enough to read.
+    var nodes2 = partition.nodes(dataArray)
+        .filter(function(d) {
+            return (d.dx > 0.03);
+        });
+
+    var text = plot2.datum(dataArray)
+        .selectAll("text")
+        .data(nodes2);
+
+    var textEnter = text.enter()
         .append("text")
         .attr("class",function (d) {if (d.depth==0) {return "title slicesNames"}else{return "slicesNames"}})
         .text(function (d){return d.key})
@@ -330,36 +428,17 @@ function drawGraph (dataArray){
         .attr("dx", "6") // margin
         .attr("dy", ".35em") // vertical-align
         ;
+//exit
+    text.exit().transition().remove();
 
-    d3.select(".plot2").on("mouseleave", mouseleave);
-
-    //exit
-    graph2.exit().transition().remove();
-
-    //update
-    graph2
-        .transition()
-        .duration(1000)
-        .select("path")
-        //.attr("display", function(d) { return d.depth ? null : "none"; }) // hide inner ring
-        //.attr("d", arc)
-        .each(stash)
-        .attrTween("d", arcTween);
-graph2
-    d3.selectAll(".slicesNames")
-        .transition()
-        .text(function(d) {console.log("click",d);return d.key});
-        //.attr("x", function(d){return d[1]})
-        //.text(function(d){return d[2]})
-        //.attr("dx", "6") // margin
-        //.attr("dy", ".35em")
-        //.attr("pointer-events","none")
-        //.attr("transform", function(d) { if (d.depth==0) {return "translate (0,0)"}else{return "translate(" + arc.centroid(d) + ")" + "rotate(" + getAngle(d) + ")"; }})// vertical-align;
-
-
-
-    //totalSPA = path.node().__data__.value;
-
+    text
+        //.transition()
+        //.duration(1000)
+        .text(function(d) {return d.key})
+        .attr("x", function(d){return d[1]})
+        .attr("dx", "6") // margin
+        .attr("dy", ".35em")
+        .attr("transform", function(d) { if (d.depth==0) {return "translate (0,0)"}else{return "translate(" + arc.centroid(d) + ")" + "rotate(" + getAngle(d) + ")"; }});// vertical-align;
 }
 
 function getAngle(d) {
@@ -388,22 +467,25 @@ function arcTween(a) {
         return arc(b);
     };
 }
-function mouseover(d) {
 
-    /*var percentage = (100 * d.value / totalSPA).toPrecision(3);
-     var percentageString = percentage + "%";
-     if (percentage < 0.1) {
-     percentageString = "< 0.1%";
-     }
-     d3.select("#percentage")
-     .text(percentageString);*/
+function mouseover(d,dataArray) {
+    var percentage = (100 * d.value / totalSPA).toPrecision(3);
+
+    var percentageString = percentage + "%";if (percentage < 0.1) {percentageString = "< 0.1%";}
+
+    d3.select("#percentage").text((percentageString));
+    d3.select("#total2").text(numberformat(totalSPA));
+
+    var sequenceArray = getAncestors(d);
+
+    d3.select("#explanationSunburst")
+        .style("visibility", "");
 
     // Fade all the segments.
     d3.selectAll("path")
         .style("opacity", 0.5);
-    var sequenceArray = getAncestors(d);
+
     // Then highlight only those that are an ancestor of the current segment.
-    //d3.select(this).style("opacity",1)
     d3.selectAll("path")
         .filter(function(node) {
             return (sequenceArray.indexOf(node) >= 0);
@@ -411,21 +493,16 @@ function mouseover(d) {
         .style("opacity", 1);
 }
 
+
 // Fade all but the current sequence
 // Restore everything to full opacity when moving off the visualization.
 function mouseleave(d) {
- // Deactivate all segments during transition.
- d3.selectAll("path").on("mouseover", null);
-
+     d3.select("#explanationSunburst").style("visibility", "hidden");
  // Transition each segment to full opacity and then reactivate it.
  d3.selectAll("path")
  .transition()
- .duration(1000)
+ .duration(500)
  .style("opacity", 1)
- .each("end", function() {
- d3.select(this).on("mouseover", mouseover);
- });
-
  }
 
 // Given a node in a partition layout, return an array of all of its ancestor
