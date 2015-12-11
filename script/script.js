@@ -470,11 +470,13 @@ function arcTween(a) {
 
 function mouseover(d,dataArray) {
     var percentage = (100 * d.value / totalSPA).toPrecision(3);
+    var totalPlace = d.value;
 
     var percentageString = percentage + "%";if (percentage < 0.1) {percentageString = "< 0.1%";}
 
     d3.select("#percentage").text((percentageString));
     d3.select("#total2").text(numberformat(totalSPA));
+    d3.select("#totalWhere").text(numberformat(totalPlace));
 
     var sequenceArray = getAncestors(d);
 
