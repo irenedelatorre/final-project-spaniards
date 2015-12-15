@@ -17,10 +17,15 @@ html,body{
 .container .section{
     width:100%;
 }
-.container .canvas{
+.container .canvas {
     width:100%;
     background:white;
-    height:600px;
+    height:450px;
+}
+.container .canvas-2{
+    width:100%;
+    background:white;
+    height:1000px;
 }
 
 .container .controls{
@@ -33,13 +38,14 @@ path {
 #plot2 {
     width:100%;
     padding-right:10px;
-    height:800px;
+    height:1000px;
     float:left;
     padding-top:-40px
 }
 
 .main-graph{
     position: relative;
+    margin-top: 20px
 }
 
 /*------------font-------------*/
@@ -84,23 +90,6 @@ p{
     font-weight:600;
 }
 
-.data-point{
-    fill:white;
-    stroke-width:2px;
-    stroke:rgb(150,150,150);
-}
-.slicesNames {
-    font-family: "MaisonNeue",sans-serif;
-    fill: white !important;
-    font-size:14px;
-    text-anchor:middle;
-}
-.title {
-    fill: #333 !important;
-    font-weight:bold;
-    text-anchor:middle;
-    font-size:24px !important;
-}
 /*-----------tooltip-----------*/
 .canvas .custom-tooltip, .canvas .custom-tooltip2 {
     position:absolute;
@@ -140,10 +129,22 @@ p{
     height:40px;
 }
 
+.slicesNames {
+    font-family: "MaisonNeue",sans-serif;
+
+    font-size:13px;
+    text-anchor:middle;
+}
+.title {
+    fill: #333 !important;
+    font-weight:bold;
+    text-anchor:middle;
+    font-size:24px !important;
+}
 
 #explanationSunburst {
     position: absolute;
-    top: 380px;
+    top: 36.5%;
     width: 100%;
     text-align: center;
     z-index: 1;
@@ -165,4 +166,8 @@ p{
     font-size:18px;
     color:#333
 
+}
+#yearVariation, #variation {
+    font-weight:300;
+    font-size:13px;
 }

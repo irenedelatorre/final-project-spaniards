@@ -16,7 +16,7 @@ var plot = d3.select('#plot')
 var dateFormat = d3.time.format('%Y-%m-%d');
 var yearformat = d3.time.format("%Y");
 var numberformat = d3.format(",");
-
+var percentage = d3.format("%");
 // Scales
 var startDate = new Date(2002,1,1),
     endDate = new Date(2015,11,1);
@@ -123,7 +123,8 @@ legend2.append("text")
 
 // Scales
     scaleColor= d3.scale.ordinal().range(["#9CCB3C","#1E8FCE","#E33425","#8D4098","#F7B219"]);
-    scaleOpacity = d3.scale.linear().domain([0,100]).range([.25,1]);
+    scaleColorStroke= d3.scale.ordinal().range(["#5D7A23","#105176","#801C14","#451F4B","#996D0C"]);
+    scaleOpacity = d3.scale.linear().domain([0,.7]).range([.10,1]);
 
 // Sunburst layout
 var radius = Math.min (width2,height2)/2;
@@ -239,7 +240,8 @@ function dataLoaded (error,data,perCont) {
         .key(function(d){return d.continent})
         .key(function(d){return d.countryCode})
         .entries(dataMonthOnly);
-    console.log(nestedData);
+
+    console.log(nestedData)
     nestedData.forEach(function(eachYear) {
             eachYear.values.forEach(function(eachContinent){
                     continent_names.push(eachContinent.key);
@@ -258,7 +260,7 @@ function dataLoaded (error,data,perCont) {
                                 }
                             ), function(d){
                                 return d.spaniards;
-                            });
+                            })
                         }
 
                     )
@@ -283,13 +285,17 @@ function dataLoaded (error,data,perCont) {
         var type = d3.select(this).attr('id');
         if (type=="2002"){
             nestedData2002 = nestedData[0];
-            drawGraph(nestedData2002);
+            drawGraph(nestedData2002)
         }if(type=="2003"){
             nestedData2003 = nestedData[1];
             drawGraph(nestedData2003)
+                .style("opacity", function(d){
+                    return scaleOpacity((nestedData[1]-nestedData[0])/nestedData[0]);
+                })
         }if(type=="2004"){
             nestedData2004 = nestedData[2];
             drawGraph(nestedData2004);
+
         }if(type=="2005"){
             nestedData2005 = nestedData[3];
             drawGraph(nestedData2005);
@@ -338,6 +344,7 @@ function drawGraph (dataArray){
         .data(nodes);
 
     scaleColor.domain(continent_names);
+    scaleColorStroke.domain(continent_names);
 
     var graph2Enter= graph2.enter()
         .append("path")
@@ -348,10 +355,10 @@ function drawGraph (dataArray){
         .style("stroke-width","0.5px")
         .attr("x", function (d) {return (d.x)})
         .attr("y", function (d) { return ((d.y))})
-        .style("fill", function(d,i) {
+        .style("fill",function(d,i) {
             if(d.depth == 1){ return scaleColor(d.key) } else if (d.depth == 2){return scaleColor(d.parent.key)} else if (d.depth == 3) {return scaleColor(d.parent.parent.key)}
         })
-        .style("opacity", 1)
+        .style("opacity", function(d){if(d.depth == 1){ return 1 } else if (d.depth == 2){return 1} else if (d.depth == 3) {console.log(d); return scaleOpacity(d.parent.parent.variation)}})
         .each(stash)
         .on("mouseover", function(d,i){
             //console.log(d,i);
@@ -367,12 +374,22 @@ function drawGraph (dataArray){
             else if (d.depth==2){tooltip2.select("#where").text(function (d,i){
                 //console.log(thisD.children[i].country)
                 countryName = (thisD.children[i].country);
-                return countryName})}
+                return countryName});
+                tooltip2.select("#yearVariation").style("opacity",0)
+                tooltip2.select("#variation").text(function (d,i){
+                    yearVariation=(thisD["variation"]);
+                    return " "});
+            }
             else if (d.depth==3){
                 tooltip2.select("#where").text(function (d,i){
                 //console.log(this_key)
                 consulateName=(thisD["consulate"]);
-                return consulateName} )}
+                return consulateName} );
+                tooltip2.select("#yearVariation").style("opacity",1)
+                tooltip2.select("#variation").text(function (d,i){
+                    yearVariation=(thisD["variation"]);
+                    return percentage(yearVariation)});
+                }
             return mouseover;
         })
         .on("mousemove",mouseover);
@@ -385,7 +402,7 @@ function drawGraph (dataArray){
     totalSPA = graph2.node().__data__.value;
 
     //size of sunburst changes with total number per year
-    partition.size([2*Math.PI, (totalSPA/(radius/27))]);
+    partition.size([2*Math.PI, (totalSPA/(radius/36))]);
 
     //update
     graph2
@@ -393,7 +410,8 @@ function drawGraph (dataArray){
         .duration(0)//If on, movements without sense
         .each(stash)
         .attrTween("d", arcTween)
-        .style("fill", function(d,i) {
+        .style("opacity", function(d){if(d.depth == 1){ return 1 } else if (d.depth == 2){return 1} else if (d.depth == 3) {console.log(d); return scaleOpacity(d.variation)}})
+        .style("fill",function(d,i) {
             if(d.depth == 1){ return scaleColor(d.key) } else if (d.depth == 2){return scaleColor(d.parent.key)} else if (d.depth == 3) {return scaleColor(d.parent.parent.key)}
         });
 
@@ -419,7 +437,7 @@ function drawGraph (dataArray){
         .attr("transform", function(d) { if (d.depth==0) {return "translate (0,0)"}else{return "translate(" + arc.centroid(d) + ")" + "rotate(" + getAngle(d) + ")"; }})
         .attr("dx", "6") // margin
         .attr("dy", ".35em") // vertical-align
-        ;
+        .style("fill", "#fff");
 //exit
     text.exit().transition().remove();
 
@@ -477,14 +495,29 @@ function mouseover(d,dataArray) {
 
     // Fade all the segments.
     d3.selectAll("path")
-        .style("opacity", 0.5);
+        .style("stroke-width","0.5px")
+        .style("fill",function(d,i) {
+            if(d.depth == 1){ return scaleColor(d.key) } else if (d.depth == 2){return scaleColor(d.parent.key)} else if (d.depth == 3) {return scaleColor(d.parent.parent.key)}
+        });
 
     // Then highlight only those that are an ancestor of the current segment.
     d3.selectAll("path")
         .filter(function(node) {
             return (sequenceArray.indexOf(node) >= 0);
         })
-        .style("opacity", 1);
+        .style("fill",function(d,i) {
+            if(d.depth == 1){ return scaleColorStroke(d.key) } else if (d.depth == 2){return scaleColorStroke(d.parent.key)} else if (d.depth == 3) {return scaleColorStroke(d.parent.parent.key)}
+        });
+
+    d3.selectAll(".slicesNames")
+    .style("font-weight","300");
+
+    d3.selectAll("text")
+        .filter(function(node) {
+            return (sequenceArray.indexOf(node) >= 0);
+        })
+        .style("font-weight","700");
+
 }
 
 
@@ -495,8 +528,18 @@ function mouseleave(d) {
  // Transition each segment to full opacity and then reactivate it.
  d3.selectAll("path")
  .transition()
- .duration(500)
- .style("opacity", 1)
+ .duration(50)
+     .style("stroke-width","0.5px")
+     .style("stroke","#fff").style("fill",function(d,i) {
+         if(d.depth == 1){ return scaleColor(d.key) } else if (d.depth == 2){return scaleColor(d.parent.key)} else if (d.depth == 3) {return scaleColor(d.parent.parent.key)}
+     });
+
+d3.selectAll(".slicesNames")
+    .transition()
+    .duration(50)
+    .style("fill", "#fff")
+    .style("font-weight","300");
+
 }
 
 // Given a node in a partition layout, return an array of all of its ancestor
@@ -523,6 +566,7 @@ function parseData (d) {
         countryCode: d["Code"],
         consulate: d["Consulate"],
         spaniards: +d["Spaniards"],
+        variation:(+d["Variation"])
     };
 }
 

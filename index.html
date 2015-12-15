@@ -34,7 +34,7 @@
     </p>
     <h3>Evolution per continent, country and consulate</h3>
     <p class="legend">Data from each November</p>
-    <p class="legend">Click each button to update the information by year. Mouse over the slices to get the totals per year and the percentage of Spaniards living in</br>each territory (continent, country or consulate).</p>
+    <p class="legend">Click each button to update the information by year. Mouse over the slices to get the totals per year and the percentage of Spaniards living in each territory (continent, country or consulate). The radius of the diagram varies depending on the total number of Spaniards registered in the CERA database that year and the opacity of the slices of the outer part of the diagram (consulates) represents the variation year to year (if not filled, the percentage is negative).</p>
     <div id ="legend2">
     </div>
     <div class="btnsgraph2">
@@ -53,15 +53,16 @@
         <a href="#2" class="btn btn-default year" data=2015 id="2014">2014</a>
         <a href="#2" class="btn btn-default year" data=2016 id="2015">2015</a>
     </div>
-    <div class="canvas">
+    <div class="canvas-2">
         <div class="main-graph" id="plot2">
             <div   id="explanationSunburst" style="visibility: hidden;">
                 </br>
                 </br>
-                Total year:<span id="total2"></span></br>
+                Total year: <span id="total2"></span></br>
                 <span id="where"></span>: </br>
                 <span id="totalWhere"></span>
-                (<span id="percentage"></span>)
+                (<span id="percentage"></span>)</br>
+                <span id="yearVariation">Year variation: </span><span id="variation"></span>
             </div>
 
             </div>
@@ -73,7 +74,7 @@
 <!-- Scripts -->
 <script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
 <script src="/lib/queue/queue.min.js"></script>
-<script src="script/script.js"></script>
+<script src="script/script2.js"></script>
 
 </body>
 </html>

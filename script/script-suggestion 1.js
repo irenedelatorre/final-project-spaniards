@@ -122,15 +122,17 @@ legend2.append("text")
     .attr('y', 19);
 
 // Scales
+var scaleR = d3.scale.sqrt().domain([0,391835]).range([2,100]),
     scaleColor= d3.scale.ordinal().range(["#9CCB3C","#1E8FCE","#E33425","#8D4098","#F7B219"]);
-    scaleOpacity = d3.scale.linear().domain([0,100]).range([.25,1]);
 
 // Sunburst layout
 var radius = Math.min (width2,height2)/2;
 var partition =  d3.layout.partition()
-    //.size([2*Math.PI, radius*radius])
-    .children (function(d){return (d.values);})
-    .value(function(d,i){return d.spaniards});
+    .size([2*Math.PI, radius*radius])
+    .children (function(d){
+    return (d.values);
+})
+    .value(function(d,i){return d.spaniards}); //d.spaniards?
 
 var arc = d3.svg.arc()
     .startAngle(function(d) { return d.x; })
@@ -232,17 +234,17 @@ function dataLoaded (error,data,perCont) {
 //TODO PLOT 2
     //nest by year
     var dataMonthOnly = data.filter(function(d){if ((d.month=="November")) {return true}else{return false}});
-    //console.log(dataMonthOnly);
+    console.log(dataMonthOnly);
 
     var nestedData = d3.nest()
         .key(function (d){return d.year})
         .key(function(d){return d.continent})
         .key(function(d){return d.countryCode})
         .entries(dataMonthOnly);
-    console.log(nestedData);
+
     nestedData.forEach(function(eachYear) {
             eachYear.values.forEach(function(eachContinent){
-                    continent_names.push(eachContinent.key);
+                    continent_names.push(eachContinent.key)
                     eachContinent.values.forEach(function(eachCountry){
                             /*spainiards_values = eachCountry.values.map(function(d){
                              return d;
@@ -274,7 +276,7 @@ function dataLoaded (error,data,perCont) {
 // Sunburst Diagram
 
     plot2 = plot2.append("g").attr("class","graph2")
-        .attr("transform", "translate(" + width / 2 + "," + height  + ")");
+        .attr("transform", "translate(" + width / 2 + "," + height * 0.7 + ")");
 
     nestedData0 = nestedData[13];
     drawGraph(nestedData0);
@@ -286,7 +288,7 @@ function dataLoaded (error,data,perCont) {
             drawGraph(nestedData2002);
         }if(type=="2003"){
             nestedData2003 = nestedData[1];
-            drawGraph(nestedData2003)
+            drawGraph(nestedData2003);
         }if(type=="2004"){
             nestedData2004 = nestedData[2];
             drawGraph(nestedData2004);
@@ -328,9 +330,10 @@ function dataLoaded (error,data,perCont) {
 }
 
 function drawGraph (dataArray){
+
     var nodes = partition.nodes(dataArray)
         .filter(function(d) {
-            return (d.dx > 0.00001); // 0.005 radians = 0.29 degrees
+            return (d.dx > 0.0005); // 0.005 radians = 0.29 degrees
         });
 
     var graph2 = plot2.datum(dataArray)
@@ -351,46 +354,28 @@ function drawGraph (dataArray){
         .style("fill", function(d,i) {
             if(d.depth == 1){ return scaleColor(d.key) } else if (d.depth == 2){return scaleColor(d.parent.key)} else if (d.depth == 3) {return scaleColor(d.parent.parent.key)}
         })
-        .style("opacity", 1)
+        .style("opacity", 1).call(myMouseOver)
         .each(stash)
-        .on("mouseover", function(d,i){
-            //console.log(d,i);
-            var tooltip2 = d3.select("#explanationSunburst");
-            tooltip2.transition().style("opacity", 1);
-            var this_key = d.key;
-            var thisD = d;
-            if (d.depth==1){tooltip2.select("#where").text(function (d,i){
-                //console.log(nodes[i].key);
-                console.log(d,nodes);
-                continentName=this_key;
-                return continentName})}
-            else if (d.depth==2){tooltip2.select("#where").text(function (d,i){
-                //console.log(thisD.children[i].country)
-                countryName = (thisD.children[i].country);
-                return countryName})}
-            else if (d.depth==3){
-                tooltip2.select("#where").text(function (d,i){
-                //console.log(this_key)
-                consulateName=(thisD["consulate"]);
-                return consulateName} )}
-            return mouseover;
-        })
+        .on("mouseover", mouseover)
+        .on("mouseclick",mouseclick)
         .on("mousemove",mouseover);
 
-    d3.select(".canvas2").on("mouseleave",mouseleave);
 
-    //exit
-    graph2.exit().transition().remove();
+    function myMouseOver (selection){
+        console.log(selection)
+    }
+    //d3.select(".canvas2").on("mouseleave",mouseleave);
 
     totalSPA = graph2.node().__data__.value;
 
-    //size of sunburst changes with total number per year
-    partition.size([2*Math.PI, (totalSPA/(radius/27))]);
+    //exit
+    graph2.exit().transition().remove();
 
     //update
     graph2
         .transition()
         .duration(0)//If on, movements without sense
+        //.attr("d", arc)
         .each(stash)
         .attrTween("d", arcTween)
         .style("fill", function(d,i) {
@@ -416,6 +401,7 @@ function drawGraph (dataArray){
         .attr("x", function(d){return d[1]})
         // Rotate around the center of the text, not the bottom left corner
         // First translate to the desired point and set the rotation
+        // Not sure what the intent of using this.parentNode.getBBox().width was here (?)
         .attr("transform", function(d) { if (d.depth==0) {return "translate (0,0)"}else{return "translate(" + arc.centroid(d) + ")" + "rotate(" + getAngle(d) + ")"; }})
         .attr("dx", "6") // margin
         .attr("dy", ".35em") // vertical-align
@@ -424,7 +410,7 @@ function drawGraph (dataArray){
     text.exit().transition().remove();
 
     text
-        //.transition() //Currently not on because element positions are built depending on the size of slices (slice number 3 may be slice number 5)
+        //.transition()
         //.duration(1000)
         .text(function(d) {return d.key})
         .attr("x", function(d){return d[1]})
@@ -464,6 +450,7 @@ function mouseover(d,dataArray) {
 
     var percentage = (100 * d.value / totalSPA).toPrecision(3);
     var totalPlace = d.value;
+
     var percentageString = percentage + "%";if (percentage < 0.1) {percentageString = "< 0.1%";}
 
     d3.select("#percentage").text((percentageString));
@@ -485,19 +472,68 @@ function mouseover(d,dataArray) {
             return (sequenceArray.indexOf(node) >= 0);
         })
         .style("opacity", 1);
+    var tooltip2 = d3.select("#explanationSunburst");
+    tooltip2.transition().style("opacity", 1);
+    var this_key = d.key;
+    var thisD = d;
+    if (d.depth==1){tooltip2.select("#where").text(function (d,i){
+        //console.log(nodes[i].key);
+        console.log(d,nodes);
+        continentName=this_key;
+        return continentName})}
+    else if (d.depth==2){tooltip2.select("#where").text(function (d,i){
+        //console.log(thisD.children[i].country)
+        countryName = (thisD.children[i].country);
+        return countryName})}
+    else if (d.depth==3){
+        tooltip2.select("#where").text(function (d,i){
+            //console.log(this_key)
+            consulateName=(thisD["consulate"]);
+            return consulateName} )}
+}
+
+
+//ON CLICK - Highlight slices that stay depending on the year
+function mouseclick(d,dataArray) {
+
+    var percentage = (100 * d.value / totalSPA).toPrecision(3);
+    var totalPlace = d.value;
+
+    var percentageString = percentage + "%";if (percentage < 0.1) {percentageString = "< 0.1%";}
+
+    d3.select("#percentage").text((percentageString));
+    d3.select("#total2").text(numberformat(totalSPA));
+    d3.select("#totalWhere").text(numberformat(totalPlace));
+
+    var sequenceArray = getAncestors(d);
+
+    d3.select("#explanationSunburst")
+        .style("visibility", "");
+
+    // Fade all the segments.
+    d3.selectAll("path")
+        .style("opacity", 0.5);
+
+    // Then highlight only those that are an ancestor of the current segment.
+    d3.selectAll("path")
+        .filter(function(node) {
+            return (sequenceArray.indexOf(node) >= 0);
+        })
+        .style("opacity", 1);
+
 }
 
 
 // Fade all but the current sequence
 // Restore everything to full opacity when moving off the visualization.
-function mouseleave(d) {
+/*function mouseleave(d) {
      d3.select("#explanationSunburst").style("visibility", "hidden");
  // Transition each segment to full opacity and then reactivate it.
  d3.selectAll("path")
  .transition()
  .duration(500)
  .style("opacity", 1)
-}
+ }*/
 
 // Given a node in a partition layout, return an array of all of its ancestor
 // nodes, highest first, but excluding the root.
@@ -512,8 +548,11 @@ function getAncestors(node) {
 }
 
 
+
 //PARSE
 function parseData (d) {
+
+
     return {
         year: +d["Year"],
         month: d["Month"],
@@ -527,6 +566,8 @@ function parseData (d) {
 }
 
 function parseDataCont (c) {
+    //console.log(c)
+
     return {
         date: new Date (c["Date"]),
         America: +c["America"],
