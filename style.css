@@ -100,7 +100,6 @@ p{
     background-color: #fff;
     border-radius: 5px;
     box-shadow: 0 4px 7px rgba(0, 0, 0, 0.2), 0 -3px 7px rgba(0, 0, 0, 0.1);
-    font-family: "MaisonNeue",sans-serif;
     font-size:12px;
     fill: #666666 !important;
 }
@@ -130,8 +129,6 @@ p{
 }
 
 .slicesNames {
-    font-family: "MaisonNeue",sans-serif;
-
     font-size:13px;
     text-anchor:middle;
 }
@@ -170,4 +167,13 @@ p{
 #yearVariation, #variation {
     font-weight:300;
     font-size:13px;
+}
+
+#notes{
+    position:absolute;
+    width:300px;
+    min-height:10px;
+    padding:10px 12px;
+    font-size:14px;
+    fill: #666666 !important;
 }

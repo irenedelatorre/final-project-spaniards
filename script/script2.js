@@ -125,6 +125,7 @@ legend2.append("text")
     scaleColor= d3.scale.ordinal().range(["#9CCB3C","#1E8FCE","#E33425","#8D4098","#F7B219"]);
     scaleColorStroke= d3.scale.ordinal().range(["#5D7A23","#105176","#801C14","#451F4B","#996D0C"]);
     scaleOpacity = d3.scale.linear().domain([0,.7]).range([.10,1]);
+    scaleOpacity2 = d3.scale.linear().domain([-.1,0]).range([1,.10]);
 
 // Sunburst layout
 var radius = Math.min (width2,height2)/2;
@@ -241,7 +242,7 @@ function dataLoaded (error,data,perCont) {
         .key(function(d){return d.countryCode})
         .entries(dataMonthOnly);
 
-    console.log(nestedData)
+    // Return data for each country. Needed it in order to be able to do the sunburst
     nestedData.forEach(function(eachYear) {
             eachYear.values.forEach(function(eachContinent){
                     continent_names.push(eachContinent.key);
@@ -270,8 +271,6 @@ function dataLoaded (error,data,perCont) {
         }
     );
 
-    //console.log("nested", nestedData);
-
 
 // Sunburst Diagram
 
@@ -281,54 +280,68 @@ function dataLoaded (error,data,perCont) {
     nestedData0 = nestedData[13];
     drawGraph(nestedData0);
 
+
+
     d3.selectAll('.btn').on('click',function(){
+        var notes = d3.select("#notes");
         var type = d3.select(this).attr('id');
         if (type=="2002"){
             nestedData2002 = nestedData[0];
-            drawGraph(nestedData2002)
+            drawGraph(nestedData2002);
+            notes.text("First year with data, all year variations are 0%. Most of the old soviet countries still have their consulate in Moscow.")
+        .select("#yearVariation").style("opacity",1);
         }if(type=="2003"){
             nestedData2003 = nestedData[1];
-            drawGraph(nestedData2003)
-                .style("opacity", function(d){
-                    return scaleOpacity((nestedData[1]-nestedData[0])/nestedData[0]);
-                })
+            drawGraph(nestedData2003);
+            notes.text("")
         }if(type=="2004"){
             nestedData2004 = nestedData[2];
             drawGraph(nestedData2004);
-
+            notes.text("")
         }if(type=="2005"){
             nestedData2005 = nestedData[3];
             drawGraph(nestedData2005);
+            notes.text("")
         }if(type=="2006"){
             nestedData2006 = nestedData[4];
             drawGraph(nestedData2006);
+            notes.text("")
         }if(type=="2007"){
             nestedData2007 = nestedData[5];
             drawGraph(nestedData2007);
+            notes.text("")
         }if(type=="2008"){
             nestedData2008 = nestedData[6];
             drawGraph(nestedData2008);
+            notes.text("Beginning of the economic crisis in Spain")
         }if(type=="2009"){
             nestedData2009 = nestedData[7];
             drawGraph(nestedData2009);
+            notes.text("")
         }if(type=="2010"){
             nestedData2010 = nestedData[8];
             drawGraph(nestedData2010);
+            notes.text("")
         }if(type=="2011"){
             nestedData2011 = nestedData[9];
             drawGraph(nestedData2011);
+            notes.text("As a result of the closure of Manchester's consulate, the one in Edinburgh has 250% more Spaniards registered in its territory. In September 2011, Hannover's consulate also closes (5,616 Spaniards registered in July), which might explain the high year variation of spaniards registered in Hamburg.")
         }if(type=="2012"){
             nestedData2012 = nestedData[10];
             drawGraph(nestedData2012);
+            notes.text("")
         }if(type=="2013"){
             nestedData2013 = nestedData[11];
             drawGraph(nestedData2013);
+            notes.text("")
         }if(type=="2014"){
             nestedData2014 = nestedData[12];
             drawGraph(nestedData2014);
+            notes.text("")
         }if(type=="2015"){
             nestedData2015 = nestedData[13];
             drawGraph(nestedData2015);
+            notes.text("")
         }
     })
 }
@@ -356,9 +369,12 @@ function drawGraph (dataArray){
         .attr("x", function (d) {return (d.x)})
         .attr("y", function (d) { return ((d.y))})
         .style("fill",function(d,i) {
-            if(d.depth == 1){ return scaleColor(d.key) } else if (d.depth == 2){return scaleColor(d.parent.key)} else if (d.depth == 3) {return scaleColor(d.parent.parent.key)}
+            if(d.depth == 1){ return scaleColor(d.key)
+            }else if (d.depth == 2){return scaleColor(d.parent.key)
+            }else if (d.depth == 3 && d.variation>=0) {return scaleColor(d.parent.parent.key)
+            }else if (d.depth == 3 && d.variation<0){return "#ababab"}
         })
-        .style("opacity", function(d){if(d.depth == 1){ return 1 } else if (d.depth == 2){return 1} else if (d.depth == 3) {console.log(d); return scaleOpacity(d.parent.parent.variation)}})
+        .style("opacity", function(d){ if (d.depth == 3&& d.variation>=0) {return scaleOpacity(d.variation)}else if (d.depth == 3 && d.variation<0){return scaleOpacity2(d.variation)}})
         .each(stash)
         .on("mouseover", function(d,i){
             //console.log(d,i);
@@ -375,7 +391,7 @@ function drawGraph (dataArray){
                 //console.log(thisD.children[i].country)
                 countryName = (thisD.children[i].country);
                 return countryName});
-                tooltip2.select("#yearVariation").style("opacity",0)
+                tooltip2.select("#yearVariation").style("opacity",0);
                 tooltip2.select("#variation").text(function (d,i){
                     yearVariation=(thisD["variation"]);
                     return " "});
@@ -385,11 +401,11 @@ function drawGraph (dataArray){
                 //console.log(this_key)
                 consulateName=(thisD["consulate"]);
                 return consulateName} );
-                tooltip2.select("#yearVariation").style("opacity",1)
+                tooltip2.select("#yearVariation").style("opacity",1);
                 tooltip2.select("#variation").text(function (d,i){
                     yearVariation=(thisD["variation"]);
                     return percentage(yearVariation)});
-                }
+                };
             return mouseover;
         })
         .on("mousemove",mouseover);
@@ -407,13 +423,17 @@ function drawGraph (dataArray){
     //update
     graph2
         .transition()
-        .duration(0)//If on, movements without sense
+        .duration(0)//.If on, transformation affects to 'new' areas created (areas that were already there, but were created as new because of the size in the diagram)
         .each(stash)
         .attrTween("d", arcTween)
-        .style("opacity", function(d){if(d.depth == 1){ return 1 } else if (d.depth == 2){return 1} else if (d.depth == 3) {console.log(d); return scaleOpacity(d.variation)}})
         .style("fill",function(d,i) {
-            if(d.depth == 1){ return scaleColor(d.key) } else if (d.depth == 2){return scaleColor(d.parent.key)} else if (d.depth == 3) {return scaleColor(d.parent.parent.key)}
-        });
+            if(d.depth == 1){ return scaleColor(d.key)
+            }else if (d.depth == 2){return scaleColor(d.parent.key)
+            }else if (d.depth == 3 && d.variation>=0) {return scaleColor(d.parent.parent.key)
+            }else if (d.depth == 3 && d.variation<0){return "#ababab"}
+        })
+        .style("opacity", function(d){ if (d.depth == 3&& d.variation>=0) {return scaleOpacity(d.variation)}else if (d.depth == 3 && d.variation<0){return scaleOpacity2(d.variation)}})
+        ;
 
 
     //TEXT
@@ -493,12 +513,16 @@ function mouseover(d,dataArray) {
     d3.select("#explanationSunburst")
         .style("visibility", "");
 
-    // Fade all the segments.
+    // All the elements in the initial state
     d3.selectAll("path")
         .style("stroke-width","0.5px")
         .style("fill",function(d,i) {
-            if(d.depth == 1){ return scaleColor(d.key) } else if (d.depth == 2){return scaleColor(d.parent.key)} else if (d.depth == 3) {return scaleColor(d.parent.parent.key)}
-        });
+            if(d.depth == 1){ return scaleColor(d.key)
+            }else if (d.depth == 2){return scaleColor(d.parent.key)
+            }else if (d.depth == 3 && d.variation>=0) {return scaleColor(d.parent.parent.key)
+            }else if (d.depth == 3 && d.variation<0){return "#ababab"}
+        })
+    ;
 
     // Then highlight only those that are an ancestor of the current segment.
     d3.selectAll("path")
@@ -506,7 +530,10 @@ function mouseover(d,dataArray) {
             return (sequenceArray.indexOf(node) >= 0);
         })
         .style("fill",function(d,i) {
-            if(d.depth == 1){ return scaleColorStroke(d.key) } else if (d.depth == 2){return scaleColorStroke(d.parent.key)} else if (d.depth == 3) {return scaleColorStroke(d.parent.parent.key)}
+            if(d.depth == 1){ return scaleColorStroke(d.key)
+            }else if (d.depth == 2){return scaleColorStroke(d.parent.key)
+            }else if (d.depth == 3 && d.variation>=0) {return scaleColorStroke(d.parent.parent.key)
+            }else if (d.depth == 3 && d.variation<0){return "#999"}
         });
 
     d3.selectAll(".slicesNames")
@@ -530,8 +557,11 @@ function mouseleave(d) {
  .transition()
  .duration(50)
      .style("stroke-width","0.5px")
-     .style("stroke","#fff").style("fill",function(d,i) {
-         if(d.depth == 1){ return scaleColor(d.key) } else if (d.depth == 2){return scaleColor(d.parent.key)} else if (d.depth == 3) {return scaleColor(d.parent.parent.key)}
+     .style("fill",function(d,i) {
+         if(d.depth == 1){ return scaleColor(d.key)
+         }else if (d.depth == 2){return scaleColor(d.parent.key)
+         }else if (d.depth == 3 && d.variation>=0) {return scaleColor(d.parent.parent.key)
+         }else if (d.depth == 3 && d.variation<0){return "#ababab"}
      });
 
 d3.selectAll(".slicesNames")
