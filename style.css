@@ -175,5 +175,6 @@ p{
     min-height:10px;
     padding:10px 12px;
     font-size:14px;
-    fill: #666666 !important;
+    fill: #333 !important;
+    font-weight:500;
 }
