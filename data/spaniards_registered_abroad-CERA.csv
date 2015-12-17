@@ -190,7 +190,7 @@ Year,Month,Date,Continent,Country of residence,Code,Consulate,Spaniards,Variatio
 2002,January,01-01-02,America,Canada,CAN,Ottawa,554,
 2002,January,01-01-02,America,Canada,CAN,Montreal,4361,
 2002,January,01-01-02,America,Chile,CHL,Santiago de Chile,17427,
-2002,January,01-01-02,America,Colombia,COL,Bogota ,7788,
+2002,January,01-01-02,America,Colombia,COL,Bogota,7788,
 2002,January,01-01-02,America,Colombia,COL,Cartagena De Indias,0,
 2002,January,01-01-02,America,Costa Rica,CRI,San Jose,2655,
 2002,January,01-01-02,America,Cuba,CUB,Havana,17818,
@@ -494,7 +494,7 @@ Year,Month,Date,Continent,Country of residence,Code,Consulate,Spaniards,Variatio
 2002,February,02-01-02,America,Canada,CAN,Ottawa,557,
 2002,February,02-01-02,America,Canada,CAN,Montreal,4359,
 2002,February,02-01-02,America,Chile,CHL,Santiago de Chile,17454,
-2002,February,02-01-02,America,Colombia,COL,Bogota ,8458,
+2002,February,02-01-02,America,Colombia,COL,Bogota,8458,
 2002,February,02-01-02,America,Colombia,COL,Cartagena De Indias,0,
 2002,February,02-01-02,America,Costa Rica,CRI,San Jose,2651,
 2002,February,02-01-02,America,Cuba,CUB,Havana,18420,
@@ -798,7 +798,7 @@ Year,Month,Date,Continent,Country of residence,Code,Consulate,Spaniards,Variatio
 2002,March,03-01-02,America,Canada,CAN,Ottawa,549,
 2002,March,03-01-02,America,Canada,CAN,Montreal,4356,
 2002,March,03-01-02,America,Chile,CHL,Santiago de Chile,17475,
-2002,March,03-01-02,America,Colombia,COL,Bogota ,8470,
+2002,March,03-01-02,America,Colombia,COL,Bogota,8470,
 2002,March,03-01-02,America,Colombia,COL,Cartagena De Indias,0,
 2002,March,03-01-02,America,Costa Rica,CRI,San Jose,2653,
 2002,March,03-01-02,America,Cuba,CUB,Havana,18984,
@@ -1102,7 +1102,7 @@ Year,Month,Date,Continent,Country of residence,Code,Consulate,Spaniards,Variatio
 2002,April,04-01-02,America,Canada,CAN,Ottawa,549,
 2002,April,04-01-02,America,Canada,CAN,Montreal,4368,
 2002,April,04-01-02,America,Chile,CHL,Santiago de Chile,17591,
-2002,April,04-01-02,America,Colombia,COL,Bogota ,8481,
+2002,April,04-01-02,America,Colombia,COL,Bogota,8481,
 2002,April,04-01-02,America,Colombia,COL,Cartagena De Indias,0,
 2002,April,04-01-02,America,Costa Rica,CRI,San Jose,2693,
 2002,April,04-01-02,America,Cuba,CUB,Havana,19519,
@@ -1406,7 +1406,7 @@ Year,Month,Date,Continent,Country of residence,Code,Consulate,Spaniards,Variatio
 2002,May,05-01-02,America,Canada,CAN,Ottawa,550,
 2002,May,05-01-02,America,Canada,CAN,Montreal,4369,
 2002,May,05-01-02,America,Chile,CHL,Santiago de Chile,17602,
-2002,May,05-01-02,America,Colombia,COL,Bogota ,8460,
+2002,May,05-01-02,America,Colombia,COL,Bogota,8460,
 2002,May,05-01-02,America,Colombia,COL,Cartagena De Indias,0,
 2002,May,05-01-02,America,Costa Rica,CRI,San Jose,2723,
 2002,May,05-01-02,America,Cuba,CUB,Havana,19479,
@@ -1710,7 +1710,7 @@ Year,Month,Date,Continent,Country of residence,Code,Consulate,Spaniards,Variatio
 2002,June,06-01-02,America,Canada,CAN,Ottawa,550,
 2002,June,06-01-02,America,Canada,CAN,Montreal,4320,
 2002,June,06-01-02,America,Chile,CHL,Santiago de Chile,17522,
-2002,June,06-01-02,America,Colombia,COL,Bogota ,8313,
+2002,June,06-01-02,America,Colombia,COL,Bogota,8313,
 2002,June,06-01-02,America,Colombia,COL,Cartagena De Indias,0,
 2002,June,06-01-02,America,Costa Rica,CRI,San Jose,2727,
 2002,June,06-01-02,America,Cuba,CUB,Havana,19540,
@@ -2014,7 +2014,7 @@ Year,Month,Date,Continent,Country of residence,Code,Consulate,Spaniards,Variatio
 2002,July,07-01-02,America,Canada,CAN,Ottawa,551,
 2002,July,07-01-02,America,Canada,CAN,Montreal,4304,
 2002,July,07-01-02,America,Chile,CHL,Santiago de Chile,17535,
-2002,July,07-01-02,America,Colombia,COL,Bogota ,7968,
+2002,July,07-01-02,America,Colombia,COL,Bogota,7968,
 2002,July,07-01-02,America,Colombia,COL,Cartagena De Indias,0,
 2002,July,07-01-02,America,Costa Rica,CRI,San Jose,2764,
 2002,July,07-01-02,America,Cuba,CUB,Havana,19668,
@@ -2318,7 +2318,7 @@ Year,Month,Date,Continent,Country of residence,Code,Consulate,Spaniards,Variatio
 2002,August,08-01-02,America,Canada,CAN,Ottawa,548,
 2002,August,08-01-02,America,Canada,CAN,Montreal,4306,
 2002,August,08-01-02,America,Chile,CHL,Santiago de Chile,17530,
-2002,August,08-01-02,America,Colombia,COL,Bogota ,7857,
+2002,August,08-01-02,America,Colombia,COL,Bogota,7857,
 2002,August,08-01-02,America,Colombia,COL,Cartagena De Indias,0,
 2002,August,08-01-02,America,Costa Rica,CRI,San Jose,2765,
 2002,August,08-01-02,America,Cuba,CUB,Havana,19613,
@@ -2622,7 +2622,7 @@ Year,Month,Date,Continent,Country of residence,Code,Consulate,Spaniards,Variatio
 2002,September,09-01-02,America,Canada,CAN,Ottawa,549,
 2002,September,09-01-02,America,Canada,CAN,Montreal,4320,
 2002,September,09-01-02,America,Chile,CHL,Santiago de Chile,17771,
-2002,September,09-01-02,America,Colombia,COL,Bogota ,7759,
+2002,September,09-01-02,America,Colombia,COL,Bogota,7759,
 2002,September,09-01-02,America,Colombia,COL,Cartagena De Indias,0,
 2002,September,09-01-02,America,Costa Rica,CRI,San Jose,2758,
 2002,September,09-01-02,America,Cuba,CUB,Havana,19546,
@@ -2926,7 +2926,7 @@ Year,Month,Date,Continent,Country of residence,Code,Consulate,Spaniards,Variatio
 2002,October,10-01-02,America,Canada,CAN,Ottawa,550,
 2002,October,10-01-02,America,Canada,CAN,Montreal,4327,
 2002,October,10-01-02,America,Chile,CHL,Santiago de Chile,17824,
-2002,October,10-01-02,America,Colombia,COL,Bogota ,7668,
+2002,October,10-01-02,America,Colombia,COL,Bogota,7668,
 2002,October,10-01-02,America,Colombia,COL,Cartagena De Indias,0,
 2002,October,10-01-02,America,Costa Rica,CRI,San Jose,2765,
 2002,October,10-01-02,America,Cuba,CUB,Havana,19773,
@@ -3230,7 +3230,7 @@ Year,Month,Date,Continent,Country of residence,Code,Consulate,Spaniards,Variatio
 2002,November,11-01-02,America,Canada,CAN,Ottawa,551,
 2002,November,11-01-02,America,Canada,CAN,Montreal,4335,
 2002,November,11-01-02,America,Chile,CHL,Santiago de Chile,17907,
-2002,November,11-01-02,America,Colombia,COL,Bogota ,7670,
+2002,November,11-01-02,America,Colombia,COL,Bogota,7670,
 2002,November,11-01-02,America,Colombia,COL,Cartagena De Indias,0,
 2002,November,11-01-02,America,Costa Rica,CRI,San Jose,2777,
 2002,November,11-01-02,America,Cuba,CUB,Havana,19878,
@@ -3534,7 +3534,7 @@ Year,Month,Date,Continent,Country of residence,Code,Consulate,Spaniards,Variatio
 2002,December,12-01-02,America,Canada,CAN,Ottawa,549,
 2002,December,12-01-02,America,Canada,CAN,Montreal,4329,
 2002,December,12-01-02,America,Chile,CHL,Santiago de Chile,17921,
-2002,December,12-01-02,America,Colombia,COL,Bogota ,7621,
+2002,December,12-01-02,America,Colombia,COL,Bogota,7621,
 2002,December,12-01-02,America,Colombia,COL,Cartagena De Indias,0,
 2002,December,12-01-02,America,Costa Rica,CRI,San Jose,2785,
 2002,December,12-01-02,America,Cuba,CUB,Havana,19795,
@@ -3838,7 +3838,7 @@ Year,Month,Date,Continent,Country of residence,Code,Consulate,Spaniards,Variatio
 2003,January,01-01-03,America,Canada,CAN,Ottawa,548,-0.01
 2003,January,01-01-03,America,Canada,CAN,Montreal,4328,-0.01
 2003,January,01-01-03,America,Chile,CHL,Santiago de Chile,17966,0.03
-2003,January,01-01-03,America,Colombia,COL,Bogota ,7479,-0.04
+2003,January,01-01-03,America,Colombia,COL,Bogota,7479,-0.04
 2003,January,01-01-03,America,Colombia,COL,Cartagena De Indias,0,
 2003,January,01-01-03,America,Costa Rica,CRI,San Jose,2787,0.05
 2003,January,01-01-03,America,Cuba,CUB,Havana,20536,0.15
@@ -4142,7 +4142,7 @@ Year,Month,Date,Continent,Country of residence,Code,Consulate,Spaniards,Variatio
 2003,February,02-01-03,America,Canada,CAN,Ottawa,546,-0.02
 2003,February,02-01-03,America,Canada,CAN,Montreal,4332,-0.01
 2003,February,02-01-03,America,Chile,CHL,Santiago de Chile,17998,0.03
-2003,February,02-01-03,America,Colombia,COL,Bogota ,7443,-0.12
+2003,February,02-01-03,America,Colombia,COL,Bogota,7443,-0.12
 2003,February,02-01-03,America,Colombia,COL,Cartagena De Indias,0,
 2003,February,02-01-03,America,Costa Rica,CRI,San Jose,2785,0.05
 2003,February,02-01-03,America,Cuba,CUB,Havana,21949,0.19
@@ -4446,7 +4446,7 @@ Year,Month,Date,Continent,Country of residence,Code,Consulate,Spaniards,Variatio
 2003,March,03-01-03,America,Canada,CAN,Ottawa,543,-0.01
 2003,March,03-01-03,America,Canada,CAN,Montreal,4357,0
 2003,March,03-01-03,America,Chile,CHL,Santiago de Chile,18326,0.05
-2003,March,03-01-03,America,Colombia,COL,Bogota ,7425,-0.12
+2003,March,03-01-03,America,Colombia,COL,Bogota,7425,-0.12
 2003,March,03-01-03,America,Colombia,COL,Cartagena De Indias,0,
 2003,March,03-01-03,America,Costa Rica,CRI,San Jose,2742,0.03
 2003,March,03-01-03,America,Cuba,CUB,Havana,22580,0.19
@@ -4750,7 +4750,7 @@ Year,Month,Date,Continent,Country of residence,Code,Consulate,Spaniards,Variatio
 2003,April,04-01-03,America,Canada,CAN,Ottawa,540,-0.02
 2003,April,04-01-03,America,Canada,CAN,Montreal,4356,0
 2003,April,04-01-03,America,Chile,CHL,Santiago de Chile,18296,0.04
-2003,April,04-01-03,America,Colombia,COL,Bogota ,7376,-0.13
+2003,April,04-01-03,America,Colombia,COL,Bogota,7376,-0.13
 2003,April,04-01-03,America,Colombia,COL,Cartagena De Indias,0,
 2003,April,04-01-03,America,Costa Rica,CRI,San Jose,2740,0.02
 2003,April,04-01-03,America,Cuba,CUB,Havana,22556,0.16
@@ -5054,7 +5054,7 @@ Year,Month,Date,Continent,Country of residence,Code,Consulate,Spaniards,Variatio
 2003,May,05-01-03,America,Canada,CAN,Ottawa,543,-0.01
 2003,May,05-01-03,America,Canada,CAN,Montreal,4349,0
 2003,May,05-01-03,America,Chile,CHL,Santiago de Chile,18268,0.04
-2003,May,05-01-03,America,Colombia,COL,Bogota ,7380,-0.13
+2003,May,05-01-03,America,Colombia,COL,Bogota,7380,-0.13
 2003,May,05-01-03,America,Colombia,COL,Cartagena De Indias,0,
 2003,May,05-01-03,America,Costa Rica,CRI,San Jose,2739,0.01
 2003,May,05-01-03,America,Cuba,CUB,Havana,22471,0.15
@@ -5358,7 +5358,7 @@ Year,Month,Date,Continent,Country of residence,Code,Consulate,Spaniards,Variatio
 2003,June,06-01-03,America,Canada,CAN,Ottawa,545,-0.01
 2003,June,06-01-03,America,Canada,CAN,Montreal,4338,0
 2003,June,06-01-03,America,Chile,CHL,Santiago de Chile,18360,0.05
-2003,June,06-01-03,America,Colombia,COL,Bogota ,7127,-0.14
+2003,June,06-01-03,America,Colombia,COL,Bogota,7127,-0.14
 2003,June,06-01-03,America,Colombia,COL,Cartagena De Indias,0,
 2003,June,06-01-03,America,Costa Rica,CRI,San Jose,2728,0
 2003,June,06-01-03,America,Cuba,CUB,Havana,22826,0.17
@@ -5662,7 +5662,7 @@ Year,Month,Date,Continent,Country of residence,Code,Consulate,Spaniards,Variatio
 2003,July,07-01-03,America,Canada,CAN,Ottawa,550,0
 2003,July,07-01-03,America,Canada,CAN,Montreal,4379,0.02
 2003,July,07-01-03,America,Chile,CHL,Santiago de Chile,18646,0.06
-2003,July,07-01-03,America,Colombia,COL,Bogota ,7077,-0.11
+2003,July,07-01-03,America,Colombia,COL,Bogota,7077,-0.11
 2003,July,07-01-03,America,Colombia,COL,Cartagena De Indias,0,
 2003,July,07-01-03,America,Costa Rica,CRI,San Jose,2715,-0.02
 2003,July,07-01-03,America,Cuba,CUB,Havana,22775,0.16
@@ -5966,7 +5966,7 @@ Year,Month,Date,Continent,Country of residence,Code,Consulate,Spaniards,Variatio
 2003,August,08-01-03,America,Canada,CAN,Ottawa,553,0.01
 2003,August,08-01-03,America,Canada,CAN,Montreal,4389,0.02
 2003,August,08-01-03,America,Chile,CHL,Santiago de Chile,18839,0.07
-2003,August,08-01-03,America,Colombia,COL,Bogota ,7170,-0.09
+2003,August,08-01-03,America,Colombia,COL,Bogota,7170,-0.09
 2003,August,08-01-03,America,Colombia,COL,Cartagena De Indias,0,
 2003,August,08-01-03,America,Costa Rica,CRI,San Jose,2692,-0.03
 2003,August,08-01-03,America,Cuba,CUB,Havana,23278,0.19
@@ -6270,7 +6270,7 @@ Year,Month,Date,Continent,Country of residence,Code,Consulate,Spaniards,Variatio
 2003,September,09-01-03,America,Canada,CAN,Ottawa,558,0.02
 2003,September,09-01-03,America,Canada,CAN,Montreal,4392,0.02
 2003,September,09-01-03,America,Chile,CHL,Santiago de Chile,19019,0.07
-2003,September,09-01-03,America,Colombia,COL,Bogota ,7241,-0.07
+2003,September,09-01-03,America,Colombia,COL,Bogota,7241,-0.07
 2003,September,09-01-03,America,Colombia,COL,Cartagena De Indias,0,
 2003,September,09-01-03,America,Costa Rica,CRI,San Jose,2673,-0.03
 2003,September,09-01-03,America,Cuba,CUB,Havana,23708,0.21
@@ -6574,7 +6574,7 @@ Year,Month,Date,Continent,Country of residence,Code,Consulate,Spaniards,Variatio
 2003,October,10-01-03,America,Canada,CAN,Ottawa,559,0.02
 2003,October,10-01-03,America,Canada,CAN,Montreal,4405,0.02
 2003,October,10-01-03,America,Chile,CHL,Santiago de Chile,19103,0.07
-2003,October,10-01-03,America,Colombia,COL,Bogota ,7241,-0.06
+2003,October,10-01-03,America,Colombia,COL,Bogota,7241,-0.06
 2003,October,10-01-03,America,Colombia,COL,Cartagena De Indias,0,
 2003,October,10-01-03,America,Costa Rica,CRI,San Jose,2655,-0.04
 2003,October,10-01-03,America,Cuba,CUB,Havana,23839,0.21
@@ -6878,7 +6878,7 @@ Year,Month,Date,Continent,Country of residence,Code,Consulate,Spaniards,Variatio
 2003,November,11-01-03,America,Canada,CAN,Ottawa,559,0.01
 2003,November,11-01-03,America,Canada,CAN,Montreal,4394,0.01
 2003,November,11-01-03,America,Chile,CHL,Santiago de Chile,19270,0.08
-2003,November,11-01-03,America,Colombia,COL,Bogota ,7239,-0.06
+2003,November,11-01-03,America,Colombia,COL,Bogota,7239,-0.06
 2003,November,11-01-03,America,Colombia,COL,Cartagena De Indias,0,
 2003,November,11-01-03,America,Costa Rica,CRI,San Jose,2629,-0.05
 2003,November,11-01-03,America,Cuba,CUB,Havana,24504,0.23
@@ -7182,7 +7182,7 @@ Year,Month,Date,Continent,Country of residence,Code,Consulate,Spaniards,Variatio
 2003,December,12-01-03,America,Canada,CAN,Ottawa,560,0.02
 2003,December,12-01-03,America,Canada,CAN,Montreal,4409,0.02
 2003,December,12-01-03,America,Chile,CHL,Santiago de Chile,19764,0.1
-2003,December,12-01-03,America,Colombia,COL,Bogota ,7300,-0.04
+2003,December,12-01-03,America,Colombia,COL,Bogota,7300,-0.04
 2003,December,12-01-03,America,Colombia,COL,Cartagena De Indias,0,
 2003,December,12-01-03,America,Costa Rica,CRI,San Jose,2601,-0.07
 2003,December,12-01-03,America,Cuba,CUB,Havana,24862,0.26
@@ -7486,7 +7486,7 @@ Year,Month,Date,Continent,Country of residence,Code,Consulate,Spaniards,Variatio
 2004,January,01-01-04,America,Canada,CAN,Ottawa,568,0.04
 2004,January,01-01-04,America,Canada,CAN,Montreal,4431,0.02
 2004,January,01-01-04,America,Chile,CHL,Santiago de Chile,19755,0.1
-2004,January,01-01-04,America,Colombia,COL,Bogota ,7371,-0.01
+2004,January,01-01-04,America,Colombia,COL,Bogota,7371,-0.01
 2004,January,01-01-04,America,Colombia,COL,Cartagena De Indias,0,
 2004,January,01-01-04,America,Costa Rica,CRI,San Jose,2602,-0.07
 2004,January,01-01-04,America,Cuba,CUB,Havana,25147,0.22
@@ -7790,7 +7790,7 @@ Year,Month,Date,Continent,Country of residence,Code,Consulate,Spaniards,Variatio
 2004,February,02-01-04,America,Canada,CAN,Ottawa,562,0.03
 2004,February,02-01-04,America,Canada,CAN,Montreal,4347,0
 2004,February,02-01-04,America,Chile,CHL,Santiago de Chile,19390,0.08
-2004,February,02-01-04,America,Colombia,COL,Bogota ,7063,-0.05
+2004,February,02-01-04,America,Colombia,COL,Bogota,7063,-0.05
 2004,February,02-01-04,America,Colombia,COL,Cartagena De Indias,0,
 2004,February,02-01-04,America,Costa Rica,CRI,San Jose,2540,-0.09
 2004,February,02-01-04,America,Cuba,CUB,Havana,24915,0.14
@@ -8094,7 +8094,7 @@ Year,Month,Date,Continent,Country of residence,Code,Consulate,Spaniards,Variatio
 2004,March,03-01-04,America,Canada,CAN,Ottawa,567,0.04
 2004,March,03-01-04,America,Canada,CAN,Montreal,4366,0
 2004,March,03-01-04,America,Chile,CHL,Santiago de Chile,19632,0.07
-2004,March,03-01-04,America,Colombia,COL,Bogota ,7179,-0.03
+2004,March,03-01-04,America,Colombia,COL,Bogota,7179,-0.03
 2004,March,03-01-04,America,Colombia,COL,Cartagena De Indias,0,
 2004,March,03-01-04,America,Costa Rica,CRI,San Jose,2573,-0.06
 2004,March,03-01-04,America,Cuba,CUB,Havana,25050,0.11
@@ -8398,7 +8398,7 @@ Year,Month,Date,Continent,Country of residence,Code,Consulate,Spaniards,Variatio
 2004,April,04-01-04,America,Canada,CAN,Ottawa,565,0.05
 2004,April,04-01-04,America,Canada,CAN,Montreal,4340,0
 2004,April,04-01-04,America,Chile,CHL,Santiago de Chile,19605,0.07
-2004,April,04-01-04,America,Colombia,COL,Bogota ,7197,-0.02
+2004,April,04-01-04,America,Colombia,COL,Bogota,7197,-0.02
 2004,April,04-01-04,America,Colombia,COL,Cartagena De Indias,0,
 2004,April,04-01-04,America,Costa Rica,CRI,San Jose,2567,-0.06
 2004,April,04-01-04,America,Cuba,CUB,Havana,25016,0.11
@@ -8702,7 +8702,7 @@ Year,Month,Date,Continent,Country of residence,Code,Consulate,Spaniards,Variatio
 2004,May,05-01-04,America,Canada,CAN,Ottawa,563,0.04
 2004,May,05-01-04,America,Canada,CAN,Montreal,4329,0
 2004,May,05-01-04,America,Chile,CHL,Santiago de Chile,19567,0.07
-2004,May,05-01-04,America,Colombia,COL,Bogota ,7060,-0.04
+2004,May,05-01-04,America,Colombia,COL,Bogota,7060,-0.04
 2004,May,05-01-04,America,Colombia,COL,Cartagena De Indias,0,
 2004,May,05-01-04,America,Costa Rica,CRI,San Jose,2539,-0.07
 2004,May,05-01-04,America,Cuba,CUB,Havana,24894,0.11
@@ -9006,7 +9006,7 @@ Year,Month,Date,Continent,Country of residence,Code,Consulate,Spaniards,Variatio
 2004,June,06-01-04,America,Canada,CAN,Ottawa,563,0.03
 2004,June,06-01-04,America,Canada,CAN,Montreal,4338,0
 2004,June,06-01-04,America,Chile,CHL,Santiago de Chile,19531,0.06
-2004,June,06-01-04,America,Colombia,COL,Bogota ,7146,0
+2004,June,06-01-04,America,Colombia,COL,Bogota,7146,0
 2004,June,06-01-04,America,Colombia,COL,Cartagena De Indias,0,
 2004,June,06-01-04,America,Costa Rica,CRI,San Jose,2551,-0.06
 2004,June,06-01-04,America,Cuba,CUB,Havana,24880,0.09
@@ -9310,7 +9310,7 @@ Year,Month,Date,Continent,Country of residence,Code,Consulate,Spaniards,Variatio
 2004,July,07-01-04,America,Canada,CAN,Ottawa,561,0.02
 2004,July,07-01-04,America,Canada,CAN,Montreal,4317,-0.01
 2004,July,07-01-04,America,Chile,CHL,Santiago de Chile,19525,0.05
-2004,July,07-01-04,America,Colombia,COL,Bogota ,7083,0
+2004,July,07-01-04,America,Colombia,COL,Bogota,7083,0
 2004,July,07-01-04,America,Colombia,COL,Cartagena De Indias,0,
 2004,July,07-01-04,America,Costa Rica,CRI,San Jose,2528,-0.07
 2004,July,07-01-04,America,Cuba,CUB,Havana,24790,0.09
@@ -9614,7 +9614,7 @@ Year,Month,Date,Continent,Country of residence,Code,Consulate,Spaniards,Variatio
 2004,August,08-01-04,America,Canada,CAN,Ottawa,563,0.02
 2004,August,08-01-04,America,Canada,CAN,Montreal,4301,-0.02
 2004,August,08-01-04,America,Chile,CHL,Santiago de Chile,19573,0.04
-2004,August,08-01-04,America,Colombia,COL,Bogota ,7023,-0.02
+2004,August,08-01-04,America,Colombia,COL,Bogota,7023,-0.02
 2004,August,08-01-04,America,Colombia,COL,Cartagena De Indias,0,
 2004,August,08-01-04,America,Costa Rica,CRI,San Jose,2518,-0.06
 2004,August,08-01-04,America,Cuba,CUB,Havana,24689,0.06
@@ -9918,7 +9918,7 @@ Year,Month,Date,Continent,Country of residence,Code,Consulate,Spaniards,Variatio
 2004,September,09-01-04,America,Canada,CAN,Ottawa,559,0
 2004,September,09-01-04,America,Canada,CAN,Montreal,4301,-0.02
 2004,September,09-01-04,America,Chile,CHL,Santiago de Chile,19612,0.03
-2004,September,09-01-04,America,Colombia,COL,Bogota ,6994,-0.03
+2004,September,09-01-04,America,Colombia,COL,Bogota,6994,-0.03
 2004,September,09-01-04,America,Colombia,COL,Cartagena De Indias,0,
 2004,September,09-01-04,America,Costa Rica,CRI,San Jose,2511,-0.06
 2004,September,09-01-04,America,Cuba,CUB,Havana,24611,0.04
@@ -10222,7 +10222,7 @@ Year,Month,Date,Continent,Country of residence,Code,Consulate,Spaniards,Variatio
 2004,October,10-01-04,America,Canada,CAN,Ottawa,557,0
 2004,October,10-01-04,America,Canada,CAN,Montreal,4305,-0.02
 2004,October,10-01-04,America,Chile,CHL,Santiago de Chile,19706,0.03
-2004,October,10-01-04,America,Colombia,COL,Bogota ,7163,-0.01
+2004,October,10-01-04,America,Colombia,COL,Bogota,7163,-0.01
 2004,October,10-01-04,America,Colombia,COL,Cartagena De Indias,0,
 2004,October,10-01-04,America,Costa Rica,CRI,San Jose,2550,-0.04
 2004,October,10-01-04,America,Cuba,CUB,Havana,24619,0.03
@@ -10526,7 +10526,7 @@ Year,Month,Date,Continent,Country of residence,Code,Consulate,Spaniards,Variatio
 2004,November,11-01-04,America,Canada,CAN,Ottawa,554,-0.01
 2004,November,11-01-04,America,Canada,CAN,Montreal,4287,-0.02
 2004,November,11-01-04,America,Chile,CHL,Santiago de Chile,19849,0.03
-2004,November,11-01-04,America,Colombia,COL,Bogota ,7150,-0.01
+2004,November,11-01-04,America,Colombia,COL,Bogota,7150,-0.01
 2004,November,11-01-04,America,Colombia,COL,Cartagena De Indias,0,
 2004,November,11-01-04,America,Costa Rica,CRI,San Jose,2556,-0.03
 2004,November,11-01-04,America,Cuba,CUB,Havana,24958,0.02
@@ -10830,7 +10830,7 @@ Year,Month,Date,Continent,Country of residence,Code,Consulate,Spaniards,Variatio
 2004,December,12-01-04,America,Canada,CAN,Ottawa,555,-0.01
 2004,December,12-01-04,America,Canada,CAN,Montreal,4292,-0.03
 2004,December,12-01-04,America,Chile,CHL,Santiago de Chile,20555,0.04
-2004,December,12-01-04,America,Colombia,COL,Bogota ,7068,-0.03
+2004,December,12-01-04,America,Colombia,COL,Bogota,7068,-0.03
 2004,December,12-01-04,America,Colombia,COL,Cartagena De Indias,0,
 2004,December,12-01-04,America,Costa Rica,CRI,San Jose,2521,-0.03
 2004,December,12-01-04,America,Cuba,CUB,Havana,24939,0
@@ -11134,7 +11134,7 @@ Year,Month,Date,Continent,Country of residence,Code,Consulate,Spaniards,Variatio
 2005,January,01-01-05,America,Canada,CAN,Ottawa,555,-0.02
 2005,January,01-01-05,America,Canada,CAN,Montreal,4291,-0.03
 2005,January,01-01-05,America,Chile,CHL,Santiago de Chile,20791,0.05
-2005,January,01-01-05,America,Colombia,COL,Bogota ,7131,-0.03
+2005,January,01-01-05,America,Colombia,COL,Bogota,7131,-0.03
 2005,January,01-01-05,America,Colombia,COL,Cartagena De Indias,0,
 2005,January,01-01-05,America,Costa Rica,CRI,San Jose,2499,-0.04
 2005,January,01-01-05,America,Cuba,CUB,Havana,24829,-0.01
@@ -11438,7 +11438,7 @@ Year,Month,Date,Continent,Country of residence,Code,Consulate,Spaniards,Variatio
 2005,February,02-01-05,America,Canada,CAN,Ottawa,554,-0.01
 2005,February,02-01-05,America,Canada,CAN,Montreal,4291,-0.01
 2005,February,02-01-05,America,Chile,CHL,Santiago de Chile,20560,0.06
-2005,February,02-01-05,America,Colombia,COL,Bogota ,7195,0.02
+2005,February,02-01-05,America,Colombia,COL,Bogota,7195,0.02
 2005,February,02-01-05,America,Colombia,COL,Cartagena De Indias,0,
 2005,February,02-01-05,America,Costa Rica,CRI,San Jose,2382,-0.06
 2005,February,02-01-05,America,Cuba,CUB,Havana,24554,-0.01
@@ -11742,7 +11742,7 @@ Year,Month,Date,Continent,Country of residence,Code,Consulate,Spaniards,Variatio
 2005,March,03-01-05,America,Canada,CAN,Ottawa,551,-0.03
 2005,March,03-01-05,America,Canada,CAN,Montreal,4277,-0.02
 2005,March,03-01-05,America,Chile,CHL,Santiago de Chile,20530,0.05
-2005,March,03-01-05,America,Colombia,COL,Bogota ,7194,0
+2005,March,03-01-05,America,Colombia,COL,Bogota,7194,0
 2005,March,03-01-05,America,Colombia,COL,Cartagena De Indias,0,
 2005,March,03-01-05,America,Costa Rica,CRI,San Jose,2381,-0.07
 2005,March,03-01-05,America,Cuba,CUB,Havana,24530,-0.02
@@ -12046,7 +12046,7 @@ Year,Month,Date,Continent,Country of residence,Code,Consulate,Spaniards,Variatio
 2005,April,04-01-05,America,Canada,CAN,Ottawa,547,-0.03
 2005,April,04-01-05,America,Canada,CAN,Montreal,4282,-0.01
 2005,April,04-01-05,America,Chile,CHL,Santiago de Chile,20671,0.05
-2005,April,04-01-05,America,Colombia,COL,Bogota ,7226,0
+2005,April,04-01-05,America,Colombia,COL,Bogota,7226,0
 2005,April,04-01-05,America,Colombia,COL,Cartagena De Indias,0,
 2005,April,04-01-05,America,Costa Rica,CRI,San Jose,2384,-0.07
 2005,April,04-01-05,America,Cuba,CUB,Havana,24669,-0.01
@@ -12350,7 +12350,7 @@ Year,Month,Date,Continent,Country of residence,Code,Consulate,Spaniards,Variatio
 2005,May,05-01-05,America,Canada,CAN,Ottawa,547,-0.03
 2005,May,05-01-05,America,Canada,CAN,Montreal,4292,-0.01
 2005,May,05-01-05,America,Chile,CHL,Santiago de Chile,20894,0.07
-2005,May,05-01-05,America,Colombia,COL,Bogota ,7240,0.03
+2005,May,05-01-05,America,Colombia,COL,Bogota,7240,0.03
 2005,May,05-01-05,America,Colombia,COL,Cartagena De Indias,0,
 2005,May,05-01-05,America,Costa Rica,CRI,San Jose,2360,-0.07
 2005,May,05-01-05,America,Cuba,CUB,Havana,24701,-0.01
@@ -12654,7 +12654,7 @@ Year,Month,Date,Continent,Country of residence,Code,Consulate,Spaniards,Variatio
 2005,June,06-01-05,America,Canada,CAN,Ottawa,547,-0.03
 2005,June,06-01-05,America,Canada,CAN,Montreal,4301,-0.01
 2005,June,06-01-05,America,Chile,CHL,Santiago de Chile,20880,0.07
-2005,June,06-01-05,America,Colombia,COL,Bogota ,7097,-0.01
+2005,June,06-01-05,America,Colombia,COL,Bogota,7097,-0.01
 2005,June,06-01-05,America,Colombia,COL,Cartagena De Indias,0,
 2005,June,06-01-05,America,Costa Rica,CRI,San Jose,2342,-0.08
 2005,June,06-01-05,America,Cuba,CUB,Havana,24762,0
@@ -12958,7 +12958,7 @@ Year,Month,Date,Continent,Country of residence,Code,Consulate,Spaniards,Variatio
 2005,July,07-01-05,America,Canada,CAN,Ottawa,547,-0.02
 2005,July,07-01-05,America,Canada,CAN,Montreal,4286,-0.01
 2005,July,07-01-05,America,Chile,CHL,Santiago de Chile,20984,0.07
-2005,July,07-01-05,America,Colombia,COL,Bogota ,7113,0
+2005,July,07-01-05,America,Colombia,COL,Bogota,7113,0
 2005,July,07-01-05,America,Colombia,COL,Cartagena De Indias,0,
 2005,July,07-01-05,America,Costa Rica,CRI,San Jose,2343,-0.07
 2005,July,07-01-05,America,Cuba,CUB,Havana,24797,0
@@ -13262,7 +13262,7 @@ Year,Month,Date,Continent,Country of residence,Code,Consulate,Spaniards,Variatio
 2005,August,08-01-05,America,Canada,CAN,Ottawa,547,-0.03
 2005,August,08-01-05,America,Canada,CAN,Montreal,4270,-0.01
 2005,August,08-01-05,America,Chile,CHL,Santiago de Chile,21084,0.08
-2005,August,08-01-05,America,Colombia,COL,Bogota ,7152,0.02
+2005,August,08-01-05,America,Colombia,COL,Bogota,7152,0.02
 2005,August,08-01-05,America,Colombia,COL,Cartagena De Indias,0,
 2005,August,08-01-05,America,Costa Rica,CRI,San Jose,2337,-0.07
 2005,August,08-01-05,America,Cuba,CUB,Havana,24871,0.01
@@ -13566,7 +13566,7 @@ Year,Month,Date,Continent,Country of residence,Code,Consulate,Spaniards,Variatio
 2005,September,09-01-05,America,Canada,CAN,Ottawa,547,-0.02
 2005,September,09-01-05,America,Canada,CAN,Montreal,4278,-0.01
 2005,September,09-01-05,America,Chile,CHL,Santiago de Chile,21224,0.08
-2005,September,09-01-05,America,Colombia,COL,Bogota ,7219,0.03
+2005,September,09-01-05,America,Colombia,COL,Bogota,7219,0.03
 2005,September,09-01-05,America,Colombia,COL,Cartagena De Indias,0,
 2005,September,09-01-05,America,Costa Rica,CRI,San Jose,2354,-0.06
 2005,September,09-01-05,America,Cuba,CUB,Havana,24834,0.01
@@ -13870,7 +13870,7 @@ Year,Month,Date,Continent,Country of residence,Code,Consulate,Spaniards,Variatio
 2005,October,10-01-05,America,Canada,CAN,Ottawa,542,-0.03
 2005,October,10-01-05,America,Canada,CAN,Montreal,4277,-0.01
 2005,October,10-01-05,America,Chile,CHL,Santiago de Chile,21312,0.08
-2005,October,10-01-05,America,Colombia,COL,Bogota ,7194,0
+2005,October,10-01-05,America,Colombia,COL,Bogota,7194,0
 2005,October,10-01-05,America,Colombia,COL,Cartagena De Indias,0,
 2005,October,10-01-05,America,Costa Rica,CRI,San Jose,2349,-0.08
 2005,October,10-01-05,America,Cuba,CUB,Havana,24934,0.01
@@ -14174,7 +14174,7 @@ Year,Month,Date,Continent,Country of residence,Code,Consulate,Spaniards,Variatio
 2005,November,11-01-05,America,Canada,CAN,Ottawa,539,-0.03
 2005,November,11-01-05,America,Canada,CAN,Montreal,4269,0
 2005,November,11-01-05,America,Chile,CHL,Santiago de Chile,21501,0.08
-2005,November,11-01-05,America,Colombia,COL,Bogota ,7106,-0.01
+2005,November,11-01-05,America,Colombia,COL,Bogota,7106,-0.01
 2005,November,11-01-05,America,Colombia,COL,Cartagena De Indias,0,
 2005,November,11-01-05,America,Costa Rica,CRI,San Jose,2343,-0.08
 2005,November,11-01-05,America,Cuba,CUB,Havana,25492,0.02
@@ -14478,7 +14478,7 @@ Year,Month,Date,Continent,Country of residence,Code,Consulate,Spaniards,Variatio
 2005,December,12-01-05,America,Canada,CAN,Ottawa,535,-0.04
 2005,December,12-01-05,America,Canada,CAN,Montreal,4292,0
 2005,December,12-01-05,America,Chile,CHL,Santiago de Chile,21655,0.05
-2005,December,12-01-05,America,Colombia,COL,Bogota ,7162,0.01
+2005,December,12-01-05,America,Colombia,COL,Bogota,7162,0.01
 2005,December,12-01-05,America,Colombia,COL,Cartagena De Indias,0,
 2005,December,12-01-05,America,Costa Rica,CRI,San Jose,2355,-0.07
 2005,December,12-01-05,America,Cuba,CUB,Havana,25499,0.02
@@ -14782,7 +14782,7 @@ Year,Month,Date,Continent,Country of residence,Code,Consulate,Spaniards,Variatio
 2006,January,01-01-06,America,Canada,CAN,Ottawa,533,-0.04
 2006,January,01-01-06,America,Canada,CAN,Montreal,4286,0
 2006,January,01-01-06,America,Chile,CHL,Santiago de Chile,21724,0.04
-2006,January,01-01-06,America,Colombia,COL,Bogota ,7156,0
+2006,January,01-01-06,America,Colombia,COL,Bogota,7156,0
 2006,January,01-01-06,America,Colombia,COL,Cartagena De Indias,0,
 2006,January,01-01-06,America,Costa Rica,CRI,San Jose,2356,-0.06
 2006,January,01-01-06,America,Cuba,CUB,Havana,25599,0.03
@@ -15086,7 +15086,7 @@ Year,Month,Date,Continent,Country of residence,Code,Consulate,Spaniards,Variatio
 2006,February,02-01-06,America,Canada,CAN,Ottawa,532,-0.04
 2006,February,02-01-06,America,Canada,CAN,Montreal,4299,0
 2006,February,02-01-06,America,Chile,CHL,Santiago de Chile,21848,0.06
-2006,February,02-01-06,America,Colombia,COL,Bogota ,7149,-0.01
+2006,February,02-01-06,America,Colombia,COL,Bogota,7149,-0.01
 2006,February,02-01-06,America,Colombia,COL,Cartagena De Indias,0,
 2006,February,02-01-06,America,Costa Rica,CRI,San Jose,2353,-0.01
 2006,February,02-01-06,America,Cuba,CUB,Havana,25650,0.04
@@ -15390,7 +15390,7 @@ Year,Month,Date,Continent,Country of residence,Code,Consulate,Spaniards,Variatio
 2006,March,03-01-06,America,Canada,CAN,Ottawa,528,-0.04
 2006,March,03-01-06,America,Canada,CAN,Montreal,4292,0
 2006,March,03-01-06,America,Chile,CHL,Santiago de Chile,21922,0.07
-2006,March,03-01-06,America,Colombia,COL,Bogota ,7166,0
+2006,March,03-01-06,America,Colombia,COL,Bogota,7166,0
 2006,March,03-01-06,America,Colombia,COL,Cartagena De Indias,0,
 2006,March,03-01-06,America,Costa Rica,CRI,San Jose,2353,-0.01
 2006,March,03-01-06,America,Cuba,CUB,Havana,25635,0.05
@@ -15694,7 +15694,7 @@ Year,Month,Date,Continent,Country of residence,Code,Consulate,Spaniards,Variatio
 2006,April,04-01-06,America,Canada,CAN,Ottawa,526,-0.04
 2006,April,04-01-06,America,Canada,CAN,Montreal,4124,-0.04
 2006,April,04-01-06,America,Chile,CHL,Santiago de Chile,21979,0.06
-2006,April,04-01-06,America,Colombia,COL,Bogota ,7193,0
+2006,April,04-01-06,America,Colombia,COL,Bogota,7193,0
 2006,April,04-01-06,America,Colombia,COL,Cartagena De Indias,0,
 2006,April,04-01-06,America,Costa Rica,CRI,San Jose,2356,-0.01
 2006,April,04-01-06,America,Cuba,CUB,Havana,25605,0.04
@@ -15998,7 +15998,7 @@ Year,Month,Date,Continent,Country of residence,Code,Consulate,Spaniards,Variatio
 2006,May,05-01-06,America,Canada,CAN,Ottawa,524,-0.04
 2006,May,05-01-06,America,Canada,CAN,Montreal,4124,-0.04
 2006,May,05-01-06,America,Chile,CHL,Santiago de Chile,22149,0.06
-2006,May,05-01-06,America,Colombia,COL,Bogota ,7167,-0.01
+2006,May,05-01-06,America,Colombia,COL,Bogota,7167,-0.01
 2006,May,05-01-06,America,Colombia,COL,Cartagena De Indias,0,
 2006,May,05-01-06,America,Costa Rica,CRI,San Jose,2094,-0.11
 2006,May,05-01-06,America,Cuba,CUB,Havana,25803,0.04
@@ -16302,7 +16302,7 @@ Year,Month,Date,Continent,Country of residence,Code,Consulate,Spaniards,Variatio
 2006,June,06-01-06,America,Canada,CAN,Ottawa,525,-0.04
 2006,June,06-01-06,America,Canada,CAN,Montreal,4126,-0.04
 2006,June,06-01-06,America,Chile,CHL,Santiago de Chile,22311,0.07
-2006,June,06-01-06,America,Colombia,COL,Bogota ,7070,0
+2006,June,06-01-06,America,Colombia,COL,Bogota,7070,0
 2006,June,06-01-06,America,Colombia,COL,Cartagena De Indias,0,
 2006,June,06-01-06,America,Costa Rica,CRI,San Jose,2141,-0.09
 2006,June,06-01-06,America,Cuba,CUB,Havana,25906,0.05
@@ -16606,7 +16606,7 @@ Year,Month,Date,Continent,Country of residence,Code,Consulate,Spaniards,Variatio
 2006,July,07-01-06,America,Canada,CAN,Ottawa,519,-0.05
 2006,July,07-01-06,America,Canada,CAN,Montreal,4115,-0.04
 2006,July,07-01-06,America,Chile,CHL,Santiago de Chile,22599,0.08
-2006,July,07-01-06,America,Colombia,COL,Bogota ,7132,0
+2006,July,07-01-06,America,Colombia,COL,Bogota,7132,0
 2006,July,07-01-06,America,Colombia,COL,Cartagena De Indias,0,
 2006,July,07-01-06,America,Costa Rica,CRI,San Jose,1981,-0.15
 2006,July,07-01-06,America,Cuba,CUB,Havana,26130,0.05
@@ -16910,7 +16910,7 @@ Year,Month,Date,Continent,Country of residence,Code,Consulate,Spaniards,Variatio
 2006,August,08-01-06,America,Canada,CAN,Ottawa,517,-0.05
 2006,August,08-01-06,America,Canada,CAN,Montreal,4131,-0.03
 2006,August,08-01-06,America,Chile,CHL,Santiago de Chile,22686,0.08
-2006,August,08-01-06,America,Colombia,COL,Bogota ,7146,0
+2006,August,08-01-06,America,Colombia,COL,Bogota,7146,0
 2006,August,08-01-06,America,Colombia,COL,Cartagena De Indias,0,
 2006,August,08-01-06,America,Costa Rica,CRI,San Jose,1881,-0.2
 2006,August,08-01-06,America,Cuba,CUB,Havana,26222,0.05
@@ -17214,7 +17214,7 @@ Year,Month,Date,Continent,Country of residence,Code,Consulate,Spaniards,Variatio
 2006,September,09-01-06,America,Canada,CAN,Ottawa,517,-0.05
 2006,September,09-01-06,America,Canada,CAN,Montreal,4097,-0.04
 2006,September,09-01-06,America,Chile,CHL,Santiago de Chile,22735,0.07
-2006,September,09-01-06,America,Colombia,COL,Bogota ,7296,0.01
+2006,September,09-01-06,America,Colombia,COL,Bogota,7296,0.01
 2006,September,09-01-06,America,Colombia,COL,Cartagena De Indias,0,
 2006,September,09-01-06,America,Costa Rica,CRI,San Jose,1913,-0.19
 2006,September,09-01-06,America,Cuba,CUB,Havana,26290,0.06
@@ -17518,7 +17518,7 @@ Year,Month,Date,Continent,Country of residence,Code,Consulate,Spaniards,Variatio
 2006,October,10-01-06,America,Canada,CAN,Ottawa,513,-0.05
 2006,October,10-01-06,America,Canada,CAN,Montreal,4103,-0.04
 2006,October,10-01-06,America,Chile,CHL,Santiago de Chile,22831,0.07
-2006,October,10-01-06,America,Colombia,COL,Bogota ,7419,0.03
+2006,October,10-01-06,America,Colombia,COL,Bogota,7419,0.03
 2006,October,10-01-06,America,Colombia,COL,Cartagena De Indias,0,
 2006,October,10-01-06,America,Costa Rica,CRI,San Jose,1938,-0.17
 2006,October,10-01-06,America,Cuba,CUB,Havana,26204,0.05
@@ -17822,7 +17822,7 @@ Year,Month,Date,Continent,Country of residence,Code,Consulate,Spaniards,Variatio
 2006,November,11-01-06,America,Canada,CAN,Ottawa,511,-0.05
 2006,November,11-01-06,America,Canada,CAN,Montreal,4100,-0.04
 2006,November,11-01-06,America,Chile,CHL,Santiago de Chile,22894,0.06
-2006,November,11-01-06,America,Colombia,COL,Bogota ,7449,0.05
+2006,November,11-01-06,America,Colombia,COL,Bogota,7449,0.05
 2006,November,11-01-06,America,Colombia,COL,Cartagena De Indias,0,
 2006,November,11-01-06,America,Costa Rica,CRI,San Jose,1984,-0.15
 2006,November,11-01-06,America,Cuba,CUB,Havana,26221,0.03
@@ -18126,7 +18126,7 @@ Year,Month,Date,Continent,Country of residence,Code,Consulate,Spaniards,Variatio
 2006,December,12-01-06,America,Canada,CAN,Ottawa,493,-0.08
 2006,December,12-01-06,America,Canada,CAN,Montreal,3987,-0.07
 2006,December,12-01-06,America,Chile,CHL,Santiago de Chile,22935,0.06
-2006,December,12-01-06,America,Colombia,COL,Bogota ,7530,0.05
+2006,December,12-01-06,America,Colombia,COL,Bogota,7530,0.05
 2006,December,12-01-06,America,Colombia,COL,Cartagena De Indias,0,
 2006,December,12-01-06,America,Costa Rica,CRI,San Jose,2022,-0.14
 2006,December,12-01-06,America,Cuba,CUB,Havana,26024,0.02
@@ -18430,7 +18430,7 @@ Year,Month,Date,Continent,Country of residence,Code,Consulate,Spaniards,Variatio
 2007,January,01-01-07,America,Canada,CAN,Ottawa,491,-0.08
 2007,January,01-01-07,America,Canada,CAN,Montreal,3981,-0.07
 2007,January,01-01-07,America,Chile,CHL,Santiago de Chile,23037,0.06
-2007,January,01-01-07,America,Colombia,COL,Bogota ,7567,0.06
+2007,January,01-01-07,America,Colombia,COL,Bogota,7567,0.06
 2007,January,01-01-07,America,Colombia,COL,Cartagena De Indias,0,
 2007,January,01-01-07,America,Costa Rica,CRI,San Jose,2045,-0.13
 2007,January,01-01-07,America,Cuba,CUB,Havana,26029,0.02
@@ -18734,7 +18734,7 @@ Year,Month,Date,Continent,Country of residence,Code,Consulate,Spaniards,Variatio
 2007,February,02-01-07,America,Canada,CAN,Ottawa,495,-0.07
 2007,February,02-01-07,America,Canada,CAN,Montreal,4001,-0.07
 2007,February,02-01-07,America,Chile,CHL,Santiago de Chile,23161,0.06
-2007,February,02-01-07,America,Colombia,COL,Bogota ,7615,0.07
+2007,February,02-01-07,America,Colombia,COL,Bogota,7615,0.07
 2007,February,02-01-07,America,Colombia,COL,Cartagena De Indias,0,
 2007,February,02-01-07,America,Costa Rica,CRI,San Jose,2065,-0.12
 2007,February,02-01-07,America,Cuba,CUB,Havana,26004,0.01
@@ -19038,7 +19038,7 @@ Year,Month,Date,Continent,Country of residence,Code,Consulate,Spaniards,Variatio
 2007,March,03-01-07,America,Canada,CAN,Ottawa,496,-0.06
 2007,March,03-01-07,America,Canada,CAN,Montreal,4000,-0.07
 2007,March,03-01-07,America,Chile,CHL,Santiago de Chile,23291,0.06
-2007,March,03-01-07,America,Colombia,COL,Bogota ,7654,0.07
+2007,March,03-01-07,America,Colombia,COL,Bogota,7654,0.07
 2007,March,03-01-07,America,Colombia,COL,Cartagena De Indias,0,
 2007,March,03-01-07,America,Costa Rica,CRI,San Jose,2071,-0.12
 2007,March,03-01-07,America,Cuba,CUB,Havana,26001,0.01
@@ -19342,7 +19342,7 @@ Year,Month,Date,Continent,Country of residence,Code,Consulate,Spaniards,Variatio
 2007,April,04-01-07,America,Canada,CAN,Ottawa,500,-0.05
 2007,April,04-01-07,America,Canada,CAN,Montreal,4012,-0.03
 2007,April,04-01-07,America,Chile,CHL,Santiago de Chile,23356,0.06
-2007,April,04-01-07,America,Colombia,COL,Bogota ,7708,0.07
+2007,April,04-01-07,America,Colombia,COL,Bogota,7708,0.07
 2007,April,04-01-07,America,Colombia,COL,Cartagena De Indias,0,
 2007,April,04-01-07,America,Costa Rica,CRI,San Jose,2091,-0.11
 2007,April,04-01-07,America,Cuba,CUB,Havana,26290,0.03
@@ -19646,7 +19646,7 @@ Year,Month,Date,Continent,Country of residence,Code,Consulate,Spaniards,Variatio
 2007,May,05-01-07,America,Canada,CAN,Ottawa,505,-0.04
 2007,May,05-01-07,America,Canada,CAN,Montreal,4022,-0.02
 2007,May,05-01-07,America,Chile,CHL,Santiago de Chile,23506,0.06
-2007,May,05-01-07,America,Colombia,COL,Bogota ,7746,0.08
+2007,May,05-01-07,America,Colombia,COL,Bogota,7746,0.08
 2007,May,05-01-07,America,Colombia,COL,Cartagena De Indias,0,
 2007,May,05-01-07,America,Costa Rica,CRI,San Jose,2148,0.03
 2007,May,05-01-07,America,Cuba,CUB,Havana,26857,0.04
@@ -19950,7 +19950,7 @@ Year,Month,Date,Continent,Country of residence,Code,Consulate,Spaniards,Variatio
 2007,June,06-01-07,America,Canada,CAN,Ottawa,503,-0.04
 2007,June,06-01-07,America,Canada,CAN,Montreal,4031,-0.02
 2007,June,06-01-07,America,Chile,CHL,Santiago de Chile,23615,0.06
-2007,June,06-01-07,America,Colombia,COL,Bogota ,7721,0.09
+2007,June,06-01-07,America,Colombia,COL,Bogota,7721,0.09
 2007,June,06-01-07,America,Colombia,COL,Cartagena De Indias,0,
 2007,June,06-01-07,America,Costa Rica,CRI,San Jose,2162,0.01
 2007,June,06-01-07,America,Cuba,CUB,Havana,27227,0.05
@@ -20254,7 +20254,7 @@ Year,Month,Date,Continent,Country of residence,Code,Consulate,Spaniards,Variatio
 2007,July,07-01-07,America,Canada,CAN,Ottawa,498,-0.04
 2007,July,07-01-07,America,Canada,CAN,Montreal,4017,-0.02
 2007,July,07-01-07,America,Chile,CHL,Santiago de Chile,23703,0.05
-2007,July,07-01-07,America,Colombia,COL,Bogota ,7722,0.08
+2007,July,07-01-07,America,Colombia,COL,Bogota,7722,0.08
 2007,July,07-01-07,America,Colombia,COL,Cartagena De Indias,0,
 2007,July,07-01-07,America,Costa Rica,CRI,San Jose,2174,0.1
 2007,July,07-01-07,America,Cuba,CUB,Havana,27602,0.06
@@ -20558,7 +20558,7 @@ Year,Month,Date,Continent,Country of residence,Code,Consulate,Spaniards,Variatio
 2007,August,08-01-07,America,Canada,CAN,Ottawa,500,-0.03
 2007,August,08-01-07,America,Canada,CAN,Montreal,4032,-0.02
 2007,August,08-01-07,America,Chile,CHL,Santiago de Chile,23780,0.05
-2007,August,08-01-07,America,Colombia,COL,Bogota ,7714,0.08
+2007,August,08-01-07,America,Colombia,COL,Bogota,7714,0.08
 2007,August,08-01-07,America,Colombia,COL,Cartagena De Indias,0,
 2007,August,08-01-07,America,Costa Rica,CRI,San Jose,2202,0.17
 2007,August,08-01-07,America,Cuba,CUB,Havana,28335,0.08
@@ -20862,7 +20862,7 @@ Year,Month,Date,Continent,Country of residence,Code,Consulate,Spaniards,Variatio
 2007,September,09-01-07,America,Canada,CAN,Ottawa,503,-0.03
 2007,September,09-01-07,America,Canada,CAN,Montreal,4033,-0.02
 2007,September,09-01-07,America,Chile,CHL,Santiago de Chile,23882,0.05
-2007,September,09-01-07,America,Colombia,COL,Bogota ,7725,0.06
+2007,September,09-01-07,America,Colombia,COL,Bogota,7725,0.06
 2007,September,09-01-07,America,Colombia,COL,Cartagena De Indias,0,
 2007,September,09-01-07,America,Costa Rica,CRI,San Jose,2217,0.16
 2007,September,09-01-07,America,Cuba,CUB,Havana,28755,0.09
@@ -21166,7 +21166,7 @@ Year,Month,Date,Continent,Country of residence,Code,Consulate,Spaniards,Variatio
 2007,October,10-01-07,America,Canada,CAN,Ottawa,503,-0.02
 2007,October,10-01-07,America,Canada,CAN,Montreal,4045,-0.01
 2007,October,10-01-07,America,Chile,CHL,Santiago de Chile,24009,0.05
-2007,October,10-01-07,America,Colombia,COL,Bogota ,7777,0.05
+2007,October,10-01-07,America,Colombia,COL,Bogota,7777,0.05
 2007,October,10-01-07,America,Colombia,COL,Cartagena De Indias,0,
 2007,October,10-01-07,America,Costa Rica,CRI,San Jose,2242,0.16
 2007,October,10-01-07,America,Cuba,CUB,Havana,29451,0.12
@@ -21470,7 +21470,7 @@ Year,Month,Date,Continent,Country of residence,Code,Consulate,Spaniards,Variatio
 2007,November,11-01-07,America,Canada,CAN,Ottawa,508,-0.01
 2007,November,11-01-07,America,Canada,CAN,Montreal,4039,-0.01
 2007,November,11-01-07,America,Chile,CHL,Santiago de Chile,24212,0.06
-2007,November,11-01-07,America,Colombia,COL,Bogota ,7832,0.05
+2007,November,11-01-07,America,Colombia,COL,Bogota,7832,0.05
 2007,November,11-01-07,America,Colombia,COL,Cartagena De Indias,0,
 2007,November,11-01-07,America,Costa Rica,CRI,San Jose,2258,0.14
 2007,November,11-01-07,America,Cuba,CUB,Havana,30231,0.15
@@ -21774,7 +21774,7 @@ Year,Month,Date,Continent,Country of residence,Code,Consulate,Spaniards,Variatio
 2007,December,12-01-07,America,Canada,CAN,Ottawa,515,0.04
 2007,December,12-01-07,America,Canada,CAN,Montreal,4046,0.01
 2007,December,12-01-07,America,Chile,CHL,Santiago de Chile,24225,0.06
-2007,December,12-01-07,America,Colombia,COL,Bogota ,7902,0.05
+2007,December,12-01-07,America,Colombia,COL,Bogota,7902,0.05
 2007,December,12-01-07,America,Colombia,COL,Cartagena De Indias,0,
 2007,December,12-01-07,America,Costa Rica,CRI,San Jose,2274,0.12
 2007,December,12-01-07,America,Cuba,CUB,Havana,31182,0.2
@@ -22078,7 +22078,7 @@ Year,Month,Date,Continent,Country of residence,Code,Consulate,Spaniards,Variatio
 2008,January,01-01-08,America,Canada,CAN,Ottawa,514,0.05
 2008,January,01-01-08,America,Canada,CAN,Montreal,4082,0.03
 2008,January,01-01-08,America,Chile,CHL,Santiago de Chile,24254,0.05
-2008,January,01-01-08,America,Colombia,COL,Bogota ,7985,0.06
+2008,January,01-01-08,America,Colombia,COL,Bogota,7985,0.06
 2008,January,01-01-08,America,Colombia,COL,Cartagena De Indias,0,
 2008,January,01-01-08,America,Costa Rica,CRI,San Jose,2304,0.13
 2008,January,01-01-08,America,Cuba,CUB,Havana,31251,0.2
@@ -22382,7 +22382,7 @@ Year,Month,Date,Continent,Country of residence,Code,Consulate,Spaniards,Variatio
 2008,February,02-01-08,America,Canada,CAN,Ottawa,515,0.04
 2008,February,02-01-08,America,Canada,CAN,Montreal,4090,0.02
 2008,February,02-01-08,America,Chile,CHL,Santiago de Chile,24353,0.05
-2008,February,02-01-08,America,Colombia,COL,Bogota ,8012,0.05
+2008,February,02-01-08,America,Colombia,COL,Bogota,8012,0.05
 2008,February,02-01-08,America,Colombia,COL,Cartagena De Indias,0,
 2008,February,02-01-08,America,Costa Rica,CRI,San Jose,2359,0.14
 2008,February,02-01-08,America,Cuba,CUB,Havana,35965,0.38
@@ -22686,7 +22686,7 @@ Year,Month,Date,Continent,Country of residence,Code,Consulate,Spaniards,Variatio
 2008,March,03-01-08,America,Canada,CAN,Ottawa,514,0.04
 2008,March,03-01-08,America,Canada,CAN,Montreal,4099,0.02
 2008,March,03-01-08,America,Chile,CHL,Santiago de Chile,24495,0.05
-2008,March,03-01-08,America,Colombia,COL,Bogota ,8052,0.05
+2008,March,03-01-08,America,Colombia,COL,Bogota,8052,0.05
 2008,March,03-01-08,America,Colombia,COL,Cartagena De Indias,0,
 2008,March,03-01-08,America,Costa Rica,CRI,San Jose,2380,0.15
 2008,March,03-01-08,America,Cuba,CUB,Havana,36492,0.4
@@ -22990,7 +22990,7 @@ Year,Month,Date,Continent,Country of residence,Code,Consulate,Spaniards,Variatio
 2008,April,04-01-08,America,Canada,CAN,Ottawa,516,0.03
 2008,April,04-01-08,America,Canada,CAN,Montreal,4098,0.02
 2008,April,04-01-08,America,Chile,CHL,Santiago de Chile,24584,0.05
-2008,April,04-01-08,America,Colombia,COL,Bogota ,8085,0.05
+2008,April,04-01-08,America,Colombia,COL,Bogota,8085,0.05
 2008,April,04-01-08,America,Colombia,COL,Cartagena De Indias,0,
 2008,April,04-01-08,America,Costa Rica,CRI,San Jose,2391,0.14
 2008,April,04-01-08,America,Cuba,CUB,Havana,36823,0.4
@@ -23294,7 +23294,7 @@ Year,Month,Date,Continent,Country of residence,Code,Consulate,Spaniards,Variatio
 2008,May,05-01-08,America,Canada,CAN,Ottawa,519,0.03
 2008,May,05-01-08,America,Canada,CAN,Montreal,4093,0.02
 2008,May,05-01-08,America,Chile,CHL,Santiago de Chile,24719,0.05
-2008,May,05-01-08,America,Colombia,COL,Bogota ,8111,0.05
+2008,May,05-01-08,America,Colombia,COL,Bogota,8111,0.05
 2008,May,05-01-08,America,Colombia,COL,Cartagena De Indias,0,
 2008,May,05-01-08,America,Costa Rica,CRI,San Jose,2416,0.12
 2008,May,05-01-08,America,Cuba,CUB,Havana,37257,0.39
@@ -23598,7 +23598,7 @@ Year,Month,Date,Continent,Country of residence,Code,Consulate,Spaniards,Variatio
 2008,June,06-01-08,America,Canada,CAN,Ottawa,521,0.04
 2008,June,06-01-08,America,Canada,CAN,Montreal,4096,0.02
 2008,June,06-01-08,America,Chile,CHL,Santiago de Chile,24822,0.05
-2008,June,06-01-08,America,Colombia,COL,Bogota ,8123,0.05
+2008,June,06-01-08,America,Colombia,COL,Bogota,8123,0.05
 2008,June,06-01-08,America,Colombia,COL,Cartagena De Indias,0,
 2008,June,06-01-08,America,Costa Rica,CRI,San Jose,2460,0.14
 2008,June,06-01-08,America,Cuba,CUB,Havana,37608,0.38
@@ -23902,7 +23902,7 @@ Year,Month,Date,Continent,Country of residence,Code,Consulate,Spaniards,Variatio
 2008,July,07-01-08,America,Canada,CAN,Ottawa,524,0.05
 2008,July,07-01-08,America,Canada,CAN,Montreal,4104,0.02
 2008,July,07-01-08,America,Chile,CHL,Santiago de Chile,24955,0.05
-2008,July,07-01-08,America,Colombia,COL,Bogota ,8149,0.06
+2008,July,07-01-08,America,Colombia,COL,Bogota,8149,0.06
 2008,July,07-01-08,America,Colombia,COL,Cartagena De Indias,0,
 2008,July,07-01-08,America,Costa Rica,CRI,San Jose,2479,0.14
 2008,July,07-01-08,America,Cuba,CUB,Havana,38039,0.38
@@ -24206,7 +24206,7 @@ Year,Month,Date,Continent,Country of residence,Code,Consulate,Spaniards,Variatio
 2008,August,08-01-08,America,Canada,CAN,Ottawa,527,0.05
 2008,August,08-01-08,America,Canada,CAN,Montreal,4105,0.02
 2008,August,08-01-08,America,Chile,CHL,Santiago de Chile,25059,0.05
-2008,August,08-01-08,America,Colombia,COL,Bogota ,8143,0.06
+2008,August,08-01-08,America,Colombia,COL,Bogota,8143,0.06
 2008,August,08-01-08,America,Colombia,COL,Cartagena De Indias,0,
 2008,August,08-01-08,America,Costa Rica,CRI,San Jose,2506,0.14
 2008,August,08-01-08,America,Cuba,CUB,Havana,38582,0.36
@@ -24510,7 +24510,7 @@ Year,Month,Date,Continent,Country of residence,Code,Consulate,Spaniards,Variatio
 2008,September,09-01-08,America,Canada,CAN,Ottawa,524,0.04
 2008,September,09-01-08,America,Canada,CAN,Montreal,4101,0.02
 2008,September,09-01-08,America,Chile,CHL,Santiago de Chile,25194,0.05
-2008,September,09-01-08,America,Colombia,COL,Bogota ,8174,0.06
+2008,September,09-01-08,America,Colombia,COL,Bogota,8174,0.06
 2008,September,09-01-08,America,Colombia,COL,Cartagena De Indias,0,
 2008,September,09-01-08,America,Costa Rica,CRI,San Jose,2534,0.14
 2008,September,09-01-08,America,Cuba,CUB,Havana,39100,0.36
@@ -24814,7 +24814,7 @@ Year,Month,Date,Continent,Country of residence,Code,Consulate,Spaniards,Variatio
 2008,October,10-01-08,America,Canada,CAN,Ottawa,523,0.04
 2008,October,10-01-08,America,Canada,CAN,Montreal,4110,0.02
 2008,October,10-01-08,America,Chile,CHL,Santiago de Chile,25309,0.05
-2008,October,10-01-08,America,Colombia,COL,Bogota ,8159,0.05
+2008,October,10-01-08,America,Colombia,COL,Bogota,8159,0.05
 2008,October,10-01-08,America,Colombia,COL,Cartagena De Indias,0,
 2008,October,10-01-08,America,Costa Rica,CRI,San Jose,2562,0.14
 2008,October,10-01-08,America,Cuba,CUB,Havana,39721,0.35
@@ -25118,7 +25118,7 @@ Year,Month,Date,Continent,Country of residence,Code,Consulate,Spaniards,Variatio
 2008,November,11-01-08,America,Canada,CAN,Ottawa,528,0.04
 2008,November,11-01-08,America,Canada,CAN,Montreal,4116,0.02
 2008,November,11-01-08,America,Chile,CHL,Santiago de Chile,25423,0.05
-2008,November,11-01-08,America,Colombia,COL,Bogota ,8166,0.04
+2008,November,11-01-08,America,Colombia,COL,Bogota,8166,0.04
 2008,November,11-01-08,America,Colombia,COL,Cartagena De Indias,0,
 2008,November,11-01-08,America,Costa Rica,CRI,San Jose,2583,0.14
 2008,November,11-01-08,America,Cuba,CUB,Havana,39970,0.32
@@ -25422,7 +25422,7 @@ Year,Month,Date,Continent,Country of residence,Code,Consulate,Spaniards,Variatio
 2008,December,12-01-08,America,Canada,CAN,Ottawa,529,0.03
 2008,December,12-01-08,America,Canada,CAN,Montreal,4122,0.02
 2008,December,12-01-08,America,Chile,CHL,Santiago de Chile,25518,0.05
-2008,December,12-01-08,America,Colombia,COL,Bogota ,8191,0.04
+2008,December,12-01-08,America,Colombia,COL,Bogota,8191,0.04
 2008,December,12-01-08,America,Colombia,COL,Cartagena De Indias,0,
 2008,December,12-01-08,America,Costa Rica,CRI,San Jose,2598,0.14
 2008,December,12-01-08,America,Cuba,CUB,Havana,40281,0.29
@@ -25726,7 +25726,7 @@ Year,Month,Date,Continent,Country of residence,Code,Consulate,Spaniards,Variatio
 2009,January,01-01-09,America,Canada,CAN,Ottawa,528,0.03
 2009,January,01-01-09,America,Canada,CAN,Montreal,4122,0.01
 2009,January,01-01-09,America,Chile,CHL,Santiago de Chile,25624,0.06
-2009,January,01-01-09,America,Colombia,COL,Bogota ,8196,0.03
+2009,January,01-01-09,America,Colombia,COL,Bogota,8196,0.03
 2009,January,01-01-09,America,Colombia,COL,Cartagena De Indias,0,
 2009,January,01-01-09,America,Costa Rica,CRI,San Jose,2613,0.13
 2009,January,01-01-09,America,Cuba,CUB,Havana,40725,0.3
@@ -26030,7 +26030,7 @@ Year,Month,Date,Continent,Country of residence,Code,Consulate,Spaniards,Variatio
 2009,February,02-01-09,America,Canada,CAN,Ottawa,529,0.03
 2009,February,02-01-09,America,Canada,CAN,Montreal,4144,0.01
 2009,February,02-01-09,America,Chile,CHL,Santiago de Chile,25776,0.06
-2009,February,02-01-09,America,Colombia,COL,Bogota ,8232,0.03
+2009,February,02-01-09,America,Colombia,COL,Bogota,8232,0.03
 2009,February,02-01-09,America,Colombia,COL,Cartagena De Indias,0,
 2009,February,02-01-09,America,Costa Rica,CRI,San Jose,2631,0.12
 2009,February,02-01-09,America,Cuba,CUB,Havana,41090,0.14
@@ -26334,7 +26334,7 @@ Year,Month,Date,Continent,Country of residence,Code,Consulate,Spaniards,Variatio
 2009,March,03-01-09,America,Canada,CAN,Ottawa,529,0.03
 2009,March,03-01-09,America,Canada,CAN,Montreal,4148,0.01
 2009,March,03-01-09,America,Chile,CHL,Santiago de Chile,25930,0.06
-2009,March,03-01-09,America,Colombia,COL,Bogota ,8198,0.02
+2009,March,03-01-09,America,Colombia,COL,Bogota,8198,0.02
 2009,March,03-01-09,America,Colombia,COL,Cartagena De Indias,0,
 2009,March,03-01-09,America,Costa Rica,CRI,San Jose,2637,0.11
 2009,March,03-01-09,America,Cuba,CUB,Havana,41316,0.13
@@ -26638,7 +26638,7 @@ Year,Month,Date,Continent,Country of residence,Code,Consulate,Spaniards,Variatio
 2009,April,04-01-09,America,Canada,CAN,Ottawa,534,0.03
 2009,April,04-01-09,America,Canada,CAN,Montreal,4161,0.02
 2009,April,04-01-09,America,Chile,CHL,Santiago de Chile,26109,0.06
-2009,April,04-01-09,America,Colombia,COL,Bogota ,8260,0.02
+2009,April,04-01-09,America,Colombia,COL,Bogota,8260,0.02
 2009,April,04-01-09,America,Colombia,COL,Cartagena De Indias,0,
 2009,April,04-01-09,America,Costa Rica,CRI,San Jose,2660,0.11
 2009,April,04-01-09,America,Cuba,CUB,Havana,41899,0.14
@@ -26942,7 +26942,7 @@ Year,Month,Date,Continent,Country of residence,Code,Consulate,Spaniards,Variatio
 2009,May,05-01-09,America,Canada,CAN,Ottawa,536,0.03
 2009,May,05-01-09,America,Canada,CAN,Montreal,4159,0.02
 2009,May,05-01-09,America,Chile,CHL,Santiago de Chile,26161,0.06
-2009,May,05-01-09,America,Colombia,COL,Bogota ,8318,0.03
+2009,May,05-01-09,America,Colombia,COL,Bogota,8318,0.03
 2009,May,05-01-09,America,Colombia,COL,Cartagena De Indias,0,
 2009,May,05-01-09,America,Costa Rica,CRI,San Jose,2684,0.11
 2009,May,05-01-09,America,Cuba,CUB,Havana,42691,0.15
@@ -27246,7 +27246,7 @@ Year,Month,Date,Continent,Country of residence,Code,Consulate,Spaniards,Variatio
 2009,June,06-01-09,America,Canada,CAN,Ottawa,542,0.04
 2009,June,06-01-09,America,Canada,CAN,Montreal,4157,0.01
 2009,June,06-01-09,America,Chile,CHL,Santiago de Chile,26341,0.06
-2009,June,06-01-09,America,Colombia,COL,Bogota ,8322,0.02
+2009,June,06-01-09,America,Colombia,COL,Bogota,8322,0.02
 2009,June,06-01-09,America,Colombia,COL,Cartagena De Indias,0,
 2009,June,06-01-09,America,Costa Rica,CRI,San Jose,2705,0.1
 2009,June,06-01-09,America,Cuba,CUB,Havana,43529,0.16
@@ -27550,7 +27550,7 @@ Year,Month,Date,Continent,Country of residence,Code,Consulate,Spaniards,Variatio
 2009,July,07-01-09,America,Canada,CAN,Ottawa,547,0.04
 2009,July,07-01-09,America,Canada,CAN,Montreal,4150,0.01
 2009,July,07-01-09,America,Chile,CHL,Santiago de Chile,26525,0.06
-2009,July,07-01-09,America,Colombia,COL,Bogota ,8469,0.04
+2009,July,07-01-09,America,Colombia,COL,Bogota,8469,0.04
 2009,July,07-01-09,America,Colombia,COL,Cartagena De Indias,0,
 2009,July,07-01-09,America,Costa Rica,CRI,San Jose,2740,0.11
 2009,July,07-01-09,America,Cuba,CUB,Havana,44217,0.16
@@ -27854,7 +27854,7 @@ Year,Month,Date,Continent,Country of residence,Code,Consulate,Spaniards,Variatio
 2009,August,08-01-09,America,Canada,CAN,Ottawa,547,0.04
 2009,August,08-01-09,America,Canada,CAN,Montreal,4162,0.01
 2009,August,08-01-09,America,Chile,CHL,Santiago de Chile,26812,0.07
-2009,August,08-01-09,America,Colombia,COL,Bogota ,8615,0.06
+2009,August,08-01-09,America,Colombia,COL,Bogota,8615,0.06
 2009,August,08-01-09,America,Colombia,COL,Cartagena De Indias,0,
 2009,August,08-01-09,America,Costa Rica,CRI,San Jose,2767,0.1
 2009,August,08-01-09,America,Cuba,CUB,Havana,45165,0.17
@@ -28158,7 +28158,7 @@ Year,Month,Date,Continent,Country of residence,Code,Consulate,Spaniards,Variatio
 2009,September,09-01-09,America,Canada,CAN,Ottawa,554,0.06
 2009,September,09-01-09,America,Canada,CAN,Montreal,4182,0.02
 2009,September,09-01-09,America,Chile,CHL,Santiago de Chile,26978,0.07
-2009,September,09-01-09,America,Colombia,COL,Bogota ,8689,0.06
+2009,September,09-01-09,America,Colombia,COL,Bogota,8689,0.06
 2009,September,09-01-09,America,Colombia,COL,Cartagena De Indias,0,
 2009,September,09-01-09,America,Costa Rica,CRI,San Jose,2803,0.11
 2009,September,09-01-09,America,Cuba,CUB,Havana,45920,0.17
@@ -28462,7 +28462,7 @@ Year,Month,Date,Continent,Country of residence,Code,Consulate,Spaniards,Variatio
 2009,October,10-01-09,America,Canada,CAN,Ottawa,553,0.06
 2009,October,10-01-09,America,Canada,CAN,Montreal,4156,0.01
 2009,October,10-01-09,America,Chile,CHL,Santiago de Chile,27162,0.07
-2009,October,10-01-09,America,Colombia,COL,Bogota ,8730,0.07
+2009,October,10-01-09,America,Colombia,COL,Bogota,8730,0.07
 2009,October,10-01-09,America,Colombia,COL,Cartagena De Indias,0,
 2009,October,10-01-09,America,Costa Rica,CRI,San Jose,2822,0.1
 2009,October,10-01-09,America,Cuba,CUB,Havana,46817,0.18
@@ -28766,7 +28766,7 @@ Year,Month,Date,Continent,Country of residence,Code,Consulate,Spaniards,Variatio
 2009,November,11-01-09,America,Canada,CAN,Ottawa,556,0.05
 2009,November,11-01-09,America,Canada,CAN,Montreal,4097,0
 2009,November,11-01-09,America,Chile,CHL,Santiago de Chile,27370,0.08
-2009,November,11-01-09,America,Colombia,COL,Bogota ,8877,0.09
+2009,November,11-01-09,America,Colombia,COL,Bogota,8877,0.09
 2009,November,11-01-09,America,Colombia,COL,Cartagena De Indias,0,
 2009,November,11-01-09,America,Costa Rica,CRI,San Jose,2847,0.1
 2009,November,11-01-09,America,Cuba,CUB,Havana,48030,0.2
@@ -29070,7 +29070,7 @@ Year,Month,Date,Continent,Country of residence,Code,Consulate,Spaniards,Variatio
 2009,December,12-01-09,America,Canada,CAN,Ottawa,557,0.05
 2009,December,12-01-09,America,Canada,CAN,Montreal,4094,-0.01
 2009,December,12-01-09,America,Chile,CHL,Santiago de Chile,27529,0.08
-2009,December,12-01-09,America,Colombia,COL,Bogota ,8992,0.1
+2009,December,12-01-09,America,Colombia,COL,Bogota,8992,0.1
 2009,December,12-01-09,America,Colombia,COL,Cartagena De Indias,0,
 2009,December,12-01-09,America,Costa Rica,CRI,San Jose,2895,0.11
 2009,December,12-01-09,America,Cuba,CUB,Havana,48927,0.21
@@ -29374,7 +29374,7 @@ Year,Month,Date,Continent,Country of residence,Code,Consulate,Spaniards,Variatio
 2010,January,01-01-10,America,Canada,CAN,Ottawa,560,0.06
 2010,January,01-01-10,America,Canada,CAN,Montreal,4158,0.01
 2010,January,01-01-10,America,Chile,CHL,Santiago de Chile,27708,0.08
-2010,January,01-01-10,America,Colombia,COL,Bogota ,9073,0.11
+2010,January,01-01-10,America,Colombia,COL,Bogota,9073,0.11
 2010,January,01-01-10,America,Colombia,COL,Cartagena De Indias,0,
 2010,January,01-01-10,America,Costa Rica,CRI,San Jose,2973,0.14
 2010,January,01-01-10,America,Cuba,CUB,Havana,49830,0.22
@@ -29678,7 +29678,7 @@ Year,Month,Date,Continent,Country of residence,Code,Consulate,Spaniards,Variatio
 2010,February,02-01-10,America,Canada,CAN,Ottawa,560,0.06
 2010,February,02-01-10,America,Canada,CAN,Montreal,4173,0.01
 2010,February,02-01-10,America,Chile,CHL,Santiago de Chile,27857,0.08
-2010,February,02-01-10,America,Colombia,COL,Bogota ,9116,0.11
+2010,February,02-01-10,America,Colombia,COL,Bogota,9116,0.11
 2010,February,02-01-10,America,Colombia,COL,Cartagena De Indias,0,
 2010,February,02-01-10,America,Costa Rica,CRI,San Jose,3031,0.15
 2010,February,02-01-10,America,Cuba,CUB,Havana,50600,0.23
@@ -29982,7 +29982,7 @@ Year,Month,Date,Continent,Country of residence,Code,Consulate,Spaniards,Variatio
 2010,March,03-01-10,America,Canada,CAN,Ottawa,564,0.07
 2010,March,03-01-10,America,Canada,CAN,Montreal,4195,0.01
 2010,March,03-01-10,America,Chile,CHL,Santiago de Chile,28075,0.08
-2010,March,03-01-10,America,Colombia,COL,Bogota ,9226,0.13
+2010,March,03-01-10,America,Colombia,COL,Bogota,9226,0.13
 2010,March,03-01-10,America,Colombia,COL,Cartagena De Indias,0,
 2010,March,03-01-10,America,Costa Rica,CRI,San Jose,3071,0.16
 2010,March,03-01-10,America,Cuba,CUB,Havana,52330,0.27
@@ -30286,7 +30286,7 @@ Year,Month,Date,Continent,Country of residence,Code,Consulate,Spaniards,Variatio
 2010,April,04-01-10,America,Canada,CAN,Ottawa,560,0.05
 2010,April,04-01-10,America,Canada,CAN,Montreal,4207,0.01
 2010,April,04-01-10,America,Chile,CHL,Santiago de Chile,28274,0.08
-2010,April,04-01-10,America,Colombia,COL,Bogota ,9353,0.13
+2010,April,04-01-10,America,Colombia,COL,Bogota,9353,0.13
 2010,April,04-01-10,America,Colombia,COL,Cartagena De Indias,0,
 2010,April,04-01-10,America,Costa Rica,CRI,San Jose,3138,0.18
 2010,April,04-01-10,America,Cuba,CUB,Havana,53963,0.29
@@ -30590,7 +30590,7 @@ Year,Month,Date,Continent,Country of residence,Code,Consulate,Spaniards,Variatio
 2010,May,05-01-10,America,Canada,CAN,Ottawa,570,0.06
 2010,May,05-01-10,America,Canada,CAN,Montreal,4237,0.02
 2010,May,05-01-10,America,Chile,CHL,Santiago de Chile,28642,0.09
-2010,May,05-01-10,America,Colombia,COL,Bogota ,9473,0.14
+2010,May,05-01-10,America,Colombia,COL,Bogota,9473,0.14
 2010,May,05-01-10,America,Colombia,COL,Cartagena De Indias,0,
 2010,May,05-01-10,America,Costa Rica,CRI,San Jose,3198,0.19
 2010,May,05-01-10,America,Cuba,CUB,Havana,55955,0.31
@@ -30894,7 +30894,7 @@ Year,Month,Date,Continent,Country of residence,Code,Consulate,Spaniards,Variatio
 2010,June,06-01-10,America,Canada,CAN,Ottawa,573,0.06
 2010,June,06-01-10,America,Canada,CAN,Montreal,4249,0.02
 2010,June,06-01-10,America,Chile,CHL,Santiago de Chile,29369,0.11
-2010,June,06-01-10,America,Colombia,COL,Bogota ,9519,0.14
+2010,June,06-01-10,America,Colombia,COL,Bogota,9519,0.14
 2010,June,06-01-10,America,Colombia,COL,Cartagena De Indias,0,
 2010,June,06-01-10,America,Costa Rica,CRI,San Jose,3244,0.2
 2010,June,06-01-10,America,Cuba,CUB,Havana,57755,0.33
@@ -31198,7 +31198,7 @@ Year,Month,Date,Continent,Country of residence,Code,Consulate,Spaniards,Variatio
 2010,July,07-01-10,America,Canada,CAN,Ottawa,579,0.06
 2010,July,07-01-10,America,Canada,CAN,Montreal,4272,0.03
 2010,July,07-01-10,America,Chile,CHL,Santiago de Chile,30106,0.14
-2010,July,07-01-10,America,Colombia,COL,Bogota ,9628,0.14
+2010,July,07-01-10,America,Colombia,COL,Bogota,9628,0.14
 2010,July,07-01-10,America,Colombia,COL,Cartagena De Indias,0,
 2010,July,07-01-10,America,Costa Rica,CRI,San Jose,3266,0.19
 2010,July,07-01-10,America,Cuba,CUB,Havana,59835,0.35
@@ -31502,7 +31502,7 @@ Year,Month,Date,Continent,Country of residence,Code,Consulate,Spaniards,Variatio
 2010,August,08-01-10,America,Canada,CAN,Ottawa,582,0.06
 2010,August,08-01-10,America,Canada,CAN,Montreal,4285,0.03
 2010,August,08-01-10,America,Chile,CHL,Santiago de Chile,30893,0.15
-2010,August,08-01-10,America,Colombia,COL,Bogota ,9679,0.12
+2010,August,08-01-10,America,Colombia,COL,Bogota,9679,0.12
 2010,August,08-01-10,America,Colombia,COL,Cartagena De Indias,0,
 2010,August,08-01-10,America,Costa Rica,CRI,San Jose,3342,0.21
 2010,August,08-01-10,America,Cuba,CUB,Havana,61797,0.37
@@ -31806,7 +31806,7 @@ Year,Month,Date,Continent,Country of residence,Code,Consulate,Spaniards,Variatio
 2010,September,09-01-10,America,Canada,CAN,Ottawa,587,0.06
 2010,September,09-01-10,America,Canada,CAN,Montreal,4282,0.02
 2010,September,09-01-10,America,Chile,CHL,Santiago de Chile,31852,0.18
-2010,September,09-01-10,America,Colombia,COL,Bogota ,9749,0.12
+2010,September,09-01-10,America,Colombia,COL,Bogota,9749,0.12
 2010,September,09-01-10,America,Colombia,COL,Cartagena De Indias,0,
 2010,September,09-01-10,America,Costa Rica,CRI,San Jose,3429,0.22
 2010,September,09-01-10,America,Cuba,CUB,Havana,63918,0.39
@@ -32110,7 +32110,7 @@ Year,Month,Date,Continent,Country of residence,Code,Consulate,Spaniards,Variatio
 2010,October,10-01-10,America,Canada,CAN,Ottawa,587,0.06
 2010,October,10-01-10,America,Canada,CAN,Montreal,4297,0.03
 2010,October,10-01-10,America,Chile,CHL,Santiago de Chile,32562,0.2
-2010,October,10-01-10,America,Colombia,COL,Bogota ,9842,0.13
+2010,October,10-01-10,America,Colombia,COL,Bogota,9842,0.13
 2010,October,10-01-10,America,Colombia,COL,Cartagena De Indias,0,
 2010,October,10-01-10,America,Costa Rica,CRI,San Jose,3469,0.23
 2010,October,10-01-10,America,Cuba,CUB,Havana,66065,0.41
@@ -32414,7 +32414,7 @@ Year,Month,Date,Continent,Country of residence,Code,Consulate,Spaniards,Variatio
 2010,November,11-01-10,America,Canada,CAN,Ottawa,573,0.03
 2010,November,11-01-10,America,Canada,CAN,Montreal,4295,0.05
 2010,November,11-01-10,America,Chile,CHL,Santiago de Chile,32841,0.2
-2010,November,11-01-10,America,Colombia,COL,Bogota ,9942,0.12
+2010,November,11-01-10,America,Colombia,COL,Bogota,9942,0.12
 2010,November,11-01-10,America,Colombia,COL,Cartagena De Indias,0,
 2010,November,11-01-10,America,Costa Rica,CRI,San Jose,3559,0.25
 2010,November,11-01-10,America,Cuba,CUB,Havana,68438,0.42
@@ -32718,7 +32718,7 @@ Year,Month,Date,Continent,Country of residence,Code,Consulate,Spaniards,Variatio
 2010,December,12-01-10,America,Canada,CAN,Ottawa,563,0.01
 2010,December,12-01-10,America,Canada,CAN,Montreal,4308,0.05
 2010,December,12-01-10,America,Chile,CHL,Santiago de Chile,33056,0.2
-2010,December,12-01-10,America,Colombia,COL,Bogota ,10011,0.11
+2010,December,12-01-10,America,Colombia,COL,Bogota,10011,0.11
 2010,December,12-01-10,America,Colombia,COL,Cartagena De Indias,0,
 2010,December,12-01-10,America,Costa Rica,CRI,San Jose,3653,0.26
 2010,December,12-01-10,America,Cuba,CUB,Havana,70106,0.43
@@ -33022,7 +33022,7 @@ Year,Month,Date,Continent,Country of residence,Code,Consulate,Spaniards,Variatio
 2011,January,01-01-11,America,Canada,CAN,Ottawa,573,0.02
 2011,January,01-01-11,America,Canada,CAN,Montreal,4324,0.04
 2011,January,01-01-11,America,Chile,CHL,Santiago de Chile,33258,0.2
-2011,January,01-01-11,America,Colombia,COL,Bogota ,10084,0.11
+2011,January,01-01-11,America,Colombia,COL,Bogota,10084,0.11
 2011,January,01-01-11,America,Colombia,COL,Cartagena De Indias,0,
 2011,January,01-01-11,America,Costa Rica,CRI,San Jose,3726,0.25
 2011,January,01-01-11,America,Cuba,CUB,Havana,71481,0.43
@@ -33326,7 +33326,7 @@ Year,Month,Date,Continent,Country of residence,Code,Consulate,Spaniards,Variatio
 2011,February,02-01-11,America,Canada,CAN,Ottawa,580,0.04
 2011,February,02-01-11,America,Canada,CAN,Montreal,4326,0.04
 2011,February,02-01-11,America,Chile,CHL,Santiago de Chile,33608,0.21
-2011,February,02-01-11,America,Colombia,COL,Bogota ,10200,0.12
+2011,February,02-01-11,America,Colombia,COL,Bogota,10200,0.12
 2011,February,02-01-11,America,Colombia,COL,Cartagena De Indias,0,
 2011,February,02-01-11,America,Costa Rica,CRI,San Jose,3871,0.28
 2011,February,02-01-11,America,Cuba,CUB,Havana,74094,0.46
@@ -33630,7 +33630,7 @@ Year,Month,Date,Continent,Country of residence,Code,Consulate,Spaniards,Variatio
 2011,March,03-01-11,America,Canada,CAN,Ottawa,581,0.03
 2011,March,03-01-11,America,Canada,CAN,Montreal,4331,0.03
 2011,March,03-01-11,America,Chile,CHL,Santiago de Chile,33683,0.2
-2011,March,03-01-11,America,Colombia,COL,Bogota ,10219,0.11
+2011,March,03-01-11,America,Colombia,COL,Bogota,10219,0.11
 2011,March,03-01-11,America,Colombia,COL,Cartagena De Indias,0,
 2011,March,03-01-11,America,Costa Rica,CRI,San Jose,3874,0.26
 2011,March,03-01-11,America,Cuba,CUB,Havana,74034,0.41
@@ -33934,7 +33934,7 @@ Year,Month,Date,Continent,Country of residence,Code,Consulate,Spaniards,Variatio
 2011,April,04-01-11,America,Canada,CAN,Ottawa,588,0.05
 2011,April,04-01-11,America,Canada,CAN,Montreal,4338,0.03
 2011,April,04-01-11,America,Chile,CHL,Santiago de Chile,33839,0.2
-2011,April,04-01-11,America,Colombia,COL,Bogota ,10316,0.1
+2011,April,04-01-11,America,Colombia,COL,Bogota,10316,0.1
 2011,April,04-01-11,America,Colombia,COL,Cartagena De Indias,0,
 2011,April,04-01-11,America,Costa Rica,CRI,San Jose,3929,0.25
 2011,April,04-01-11,America,Cuba,CUB,Havana,75397,0.4
@@ -34238,7 +34238,7 @@ Year,Month,Date,Continent,Country of residence,Code,Consulate,Spaniards,Variatio
 2011,May,05-01-11,America,Canada,CAN,Ottawa,593,0.04
 2011,May,05-01-11,America,Canada,CAN,Montreal,4375,0.03
 2011,May,05-01-11,America,Chile,CHL,Santiago de Chile,34341,0.2
-2011,May,05-01-11,America,Colombia,COL,Bogota ,10477,0.11
+2011,May,05-01-11,America,Colombia,COL,Bogota,10477,0.11
 2011,May,05-01-11,America,Colombia,COL,Cartagena De Indias,0,
 2011,May,05-01-11,America,Costa Rica,CRI,San Jose,4059,0.27
 2011,May,05-01-11,America,Cuba,CUB,Havana,78032,0.39
@@ -34542,7 +34542,7 @@ Year,Month,Date,Continent,Country of residence,Code,Consulate,Spaniards,Variatio
 2011,June,06-01-11,America,Canada,CAN,Ottawa,598,0.04
 2011,June,06-01-11,America,Canada,CAN,Montreal,4395,0.03
 2011,June,06-01-11,America,Chile,CHL,Santiago de Chile,34877,0.19
-2011,June,06-01-11,America,Colombia,COL,Bogota ,10497,0.1
+2011,June,06-01-11,America,Colombia,COL,Bogota,10497,0.1
 2011,June,06-01-11,America,Colombia,COL,Cartagena De Indias,0,
 2011,June,06-01-11,America,Costa Rica,CRI,San Jose,4128,0.27
 2011,June,06-01-11,America,Cuba,CUB,Havana,78772,0.36
@@ -34846,7 +34846,7 @@ Year,Month,Date,Continent,Country of residence,Code,Consulate,Spaniards,Variatio
 2011,July,07-01-11,America,Canada,CAN,Ottawa,599,0.03
 2011,July,07-01-11,America,Canada,CAN,Montreal,4397,0.03
 2011,July,07-01-11,America,Chile,CHL,Santiago de Chile,34942,0.16
-2011,July,07-01-11,America,Colombia,COL,Bogota ,10467,0.09
+2011,July,07-01-11,America,Colombia,COL,Bogota,10467,0.09
 2011,July,07-01-11,America,Colombia,COL,Cartagena De Indias,0,
 2011,July,07-01-11,America,Costa Rica,CRI,San Jose,4144,0.27
 2011,July,07-01-11,America,Cuba,CUB,Havana,78087,0.31
@@ -35150,7 +35150,7 @@ Year,Month,Date,Continent,Country of residence,Code,Consulate,Spaniards,Variatio
 2011,August,08-01-11,America,Canada,CAN,Ottawa,603,0.04
 2011,August,08-01-11,America,Canada,CAN,Montreal,4402,0.03
 2011,August,08-01-11,America,Chile,CHL,Santiago de Chile,35658,0.15
-2011,August,08-01-11,America,Colombia,COL,Bogota ,10614,0.1
+2011,August,08-01-11,America,Colombia,COL,Bogota,10614,0.1
 2011,August,08-01-11,America,Colombia,COL,Cartagena De Indias,0,
 2011,August,08-01-11,America,Costa Rica,CRI,San Jose,4197,0.26
 2011,August,08-01-11,America,Cuba,CUB,Havana,81232,0.31
@@ -35454,7 +35454,7 @@ Year,Month,Date,Continent,Country of residence,Code,Consulate,Spaniards,Variatio
 2011,September,09-01-11,America,Canada,CAN,Ottawa,608,0.04
 2011,September,09-01-11,America,Canada,CAN,Montreal,4405,0.03
 2011,September,09-01-11,America,Chile,CHL,Santiago de Chile,35774,0.12
-2011,September,09-01-11,America,Colombia,COL,Bogota ,10600,0.09
+2011,September,09-01-11,America,Colombia,COL,Bogota,10600,0.09
 2011,September,09-01-11,America,Colombia,COL,Cartagena De Indias,0,
 2011,September,09-01-11,America,Costa Rica,CRI,San Jose,4196,0.22
 2011,September,09-01-11,America,Cuba,CUB,Havana,81020,0.27
@@ -35758,7 +35758,7 @@ Year,Month,Date,Continent,Country of residence,Code,Consulate,Spaniards,Variatio
 2011,October,10-01-11,America,Canada,CAN,Ottawa,608,0.04
 2011,October,10-01-11,America,Canada,CAN,Montreal,4438,0.03
 2011,October,10-01-11,America,Chile,CHL,Santiago de Chile,35925,0.1
-2011,October,10-01-11,America,Colombia,COL,Bogota ,10749,0.09
+2011,October,10-01-11,America,Colombia,COL,Bogota,10749,0.09
 2011,October,10-01-11,America,Colombia,COL,Cartagena De Indias,0,
 2011,October,10-01-11,America,Costa Rica,CRI,San Jose,4234,0.22
 2011,October,10-01-11,America,Cuba,CUB,Havana,82923,0.26
@@ -36062,7 +36062,7 @@ Year,Month,Date,Continent,Country of residence,Code,Consulate,Spaniards,Variatio
 2011,November,11-01-11,America,Canada,CAN,Ottawa,613,0.07
 2011,November,11-01-11,America,Canada,CAN,Montreal,4450,0.04
 2011,November,11-01-11,America,Chile,CHL,Santiago de Chile,36227,0.1
-2011,November,11-01-11,America,Colombia,COL,Bogota ,10906,0.1
+2011,November,11-01-11,America,Colombia,COL,Bogota,10906,0.1
 2011,November,11-01-11,America,Colombia,COL,Cartagena De Indias,0,
 2011,November,11-01-11,America,Costa Rica,CRI,San Jose,4291,0.21
 2011,November,11-01-11,America,Cuba,CUB,Havana,84822,0.24
@@ -36366,7 +36366,7 @@ Year,Month,Date,Continent,Country of residence,Code,Consulate,Spaniards,Variatio
 2011,December,12-01-11,America,Canada,CAN,Ottawa,617,0.1
 2011,December,12-01-11,America,Canada,CAN,Montreal,4465,0.04
 2011,December,12-01-11,America,Chile,CHL,Santiago de Chile,36555,0.11
-2011,December,12-01-11,America,Colombia,COL,Bogota ,10962,0.09
+2011,December,12-01-11,America,Colombia,COL,Bogota,10962,0.09
 2011,December,12-01-11,America,Colombia,COL,Cartagena De Indias,0,
 2011,December,12-01-11,America,Costa Rica,CRI,San Jose,4353,0.19
 2011,December,12-01-11,America,Cuba,CUB,Havana,85427,0.22
@@ -36670,7 +36670,7 @@ Year,Month,Date,Continent,Country of residence,Code,Consulate,Spaniards,Variatio
 2012,January,01-01-12,America,Canada,CAN,Ottawa,626,0.09
 2012,January,01-01-12,America,Canada,CAN,Montreal,5164,0.19
 2012,January,01-01-12,America,Chile,CHL,Santiago de Chile,36803,0.11
-2012,January,01-01-12,America,Colombia,COL,Bogota ,10970,0.09
+2012,January,01-01-12,America,Colombia,COL,Bogota,10970,0.09
 2012,January,01-01-12,America,Colombia,COL,Cartagena De Indias,0,
 2012,January,01-01-12,America,Costa Rica,CRI,San Jose,4378,0.17
 2012,January,01-01-12,America,Cuba,CUB,Havana,85866,0.2
@@ -36974,7 +36974,7 @@ Year,Month,Date,Continent,Country of residence,Code,Consulate,Spaniards,Variatio
 2012,February,02-01-12,America,Canada,CAN,Ottawa,627,0.08
 2012,February,02-01-12,America,Canada,CAN,Montreal,5203,0.2
 2012,February,02-01-12,America,Chile,CHL,Santiago de Chile,36874,0.1
-2012,February,02-01-12,America,Colombia,COL,Bogota ,10943,0.07
+2012,February,02-01-12,America,Colombia,COL,Bogota,10943,0.07
 2012,February,02-01-12,America,Colombia,COL,Cartagena De Indias,0,
 2012,February,02-01-12,America,Costa Rica,CRI,San Jose,4379,0.13
 2012,February,02-01-12,America,Cuba,CUB,Havana,85461,0.15
@@ -37278,7 +37278,7 @@ Year,Month,Date,Continent,Country of residence,Code,Consulate,Spaniards,Variatio
 2012,March,03-01-12,America,Canada,CAN,Ottawa,633,0.09
 2012,March,03-01-12,America,Canada,CAN,Montreal,5234,0.21
 2012,March,03-01-12,America,Chile,CHL,Santiago de Chile,37256,0.11
-2012,March,03-01-12,America,Colombia,COL,Bogota ,11042,0.08
+2012,March,03-01-12,America,Colombia,COL,Bogota,11042,0.08
 2012,March,03-01-12,America,Colombia,COL,Cartagena De Indias,0,
 2012,March,03-01-12,America,Costa Rica,CRI,San Jose,4449,0.15
 2012,March,03-01-12,America,Cuba,CUB,Havana,86662,0.17
@@ -37582,7 +37582,7 @@ Year,Month,Date,Continent,Country of residence,Code,Consulate,Spaniards,Variatio
 2012,April,04-01-12,America,Canada,CAN,Ottawa,638,0.09
 2012,April,04-01-12,America,Canada,CAN,Montreal,5280,0.22
 2012,April,04-01-12,America,Chile,CHL,Santiago de Chile,37467,0.11
-2012,April,04-01-12,America,Colombia,COL,Bogota ,11150,0.08
+2012,April,04-01-12,America,Colombia,COL,Bogota,11150,0.08
 2012,April,04-01-12,America,Colombia,COL,Cartagena De Indias,0,
 2012,April,04-01-12,America,Costa Rica,CRI,San Jose,4457,0.13
 2012,April,04-01-12,America,Cuba,CUB,Havana,86440,0.15
@@ -37886,7 +37886,7 @@ Year,Month,Date,Continent,Country of residence,Code,Consulate,Spaniards,Variatio
 2012,May,05-01-12,America,Canada,CAN,Ottawa,640,0.08
 2012,May,05-01-12,America,Canada,CAN,Montreal,5315,0.21
 2012,May,05-01-12,America,Chile,CHL,Santiago de Chile,38556,0.12
-2012,May,05-01-12,America,Colombia,COL,Bogota ,11319,0.08
+2012,May,05-01-12,America,Colombia,COL,Bogota,11319,0.08
 2012,May,05-01-12,America,Colombia,COL,Cartagena De Indias,0,
 2012,May,05-01-12,America,Costa Rica,CRI,San Jose,4526,0.12
 2012,May,05-01-12,America,Cuba,CUB,Havana,87579,0.12
@@ -38190,7 +38190,7 @@ Year,Month,Date,Continent,Country of residence,Code,Consulate,Spaniards,Variatio
 2012,June,06-01-12,America,Canada,CAN,Ottawa,638,0.07
 2012,June,06-01-12,America,Canada,CAN,Montreal,5353,0.22
 2012,June,06-01-12,America,Chile,CHL,Santiago de Chile,39389,0.13
-2012,June,06-01-12,America,Colombia,COL,Bogota ,11371,0.08
+2012,June,06-01-12,America,Colombia,COL,Bogota,11371,0.08
 2012,June,06-01-12,America,Colombia,COL,Cartagena De Indias,0,
 2012,June,06-01-12,America,Costa Rica,CRI,San Jose,4597,0.11
 2012,June,06-01-12,America,Cuba,CUB,Havana,87920,0.12
@@ -38494,7 +38494,7 @@ Year,Month,Date,Continent,Country of residence,Code,Consulate,Spaniards,Variatio
 2012,July,07-01-12,America,Canada,CAN,Ottawa,643,0.07
 2012,July,07-01-12,America,Canada,CAN,Montreal,5389,0.23
 2012,July,07-01-12,America,Chile,CHL,Santiago de Chile,40368,0.16
-2012,July,07-01-12,America,Colombia,COL,Bogota ,11488,0.1
+2012,July,07-01-12,America,Colombia,COL,Bogota,11488,0.1
 2012,July,07-01-12,America,Colombia,COL,Cartagena De Indias,0,
 2012,July,07-01-12,America,Costa Rica,CRI,San Jose,4694,0.13
 2012,July,07-01-12,America,Cuba,CUB,Havana,88422,0.13
@@ -38798,7 +38798,7 @@ Year,Month,Date,Continent,Country of residence,Code,Consulate,Spaniards,Variatio
 2012,August,08-01-12,America,Canada,CAN,Ottawa,645,0.07
 2012,August,08-01-12,America,Canada,CAN,Montreal,5410,0.23
 2012,August,08-01-12,America,Chile,CHL,Santiago de Chile,40485,0.14
-2012,August,08-01-12,America,Colombia,COL,Bogota ,11568,0.09
+2012,August,08-01-12,America,Colombia,COL,Bogota,11568,0.09
 2012,August,08-01-12,America,Colombia,COL,Cartagena De Indias,0,
 2012,August,08-01-12,America,Costa Rica,CRI,San Jose,4704,0.12
 2012,August,08-01-12,America,Cuba,CUB,Havana,88160,0.09
@@ -39102,7 +39102,7 @@ Year,Month,Date,Continent,Country of residence,Code,Consulate,Spaniards,Variatio
 2012,September,09-01-12,America,Canada,CAN,Ottawa,642,0.06
 2012,September,09-01-12,America,Canada,CAN,Montreal,5414,0.23
 2012,September,09-01-12,America,Chile,CHL,Santiago de Chile,41430,0.16
-2012,September,09-01-12,America,Colombia,COL,Bogota ,11718,0.11
+2012,September,09-01-12,America,Colombia,COL,Bogota,11718,0.11
 2012,September,09-01-12,America,Colombia,COL,Cartagena De Indias,0,
 2012,September,09-01-12,America,Costa Rica,CRI,San Jose,4754,0.13
 2012,September,09-01-12,America,Cuba,CUB,Havana,89068,0.1
@@ -39406,7 +39406,7 @@ Year,Month,Date,Continent,Country of residence,Code,Consulate,Spaniards,Variatio
 2012,October,10-01-12,America,Canada,CAN,Ottawa,646,0.06
 2012,October,10-01-12,America,Canada,CAN,Montreal,5430,0.22
 2012,October,10-01-12,America,Chile,CHL,Santiago de Chile,41940,0.17
-2012,October,10-01-12,America,Colombia,COL,Bogota ,11847,0.1
+2012,October,10-01-12,America,Colombia,COL,Bogota,11847,0.1
 2012,October,10-01-12,America,Colombia,COL,Cartagena De Indias,0,
 2012,October,10-01-12,America,Costa Rica,CRI,San Jose,4878,0.15
 2012,October,10-01-12,America,Cuba,CUB,Havana,90232,0.09
@@ -39710,7 +39710,7 @@ Year,Month,Date,Continent,Country of residence,Code,Consulate,Spaniards,Variatio
 2012,November,11-01-12,America,Canada,CAN,Ottawa,644,0.05
 2012,November,11-01-12,America,Canada,CAN,Montreal,5505,0.24
 2012,November,11-01-12,America,Chile,CHL,Santiago de Chile,42027,0.16
-2012,November,11-01-12,America,Colombia,COL,Bogota ,11917,0.09
+2012,November,11-01-12,America,Colombia,COL,Bogota,11917,0.09
 2012,November,11-01-12,America,Colombia,COL,Cartagena De Indias,0,
 2012,November,11-01-12,America,Costa Rica,CRI,San Jose,4889,0.14
 2012,November,11-01-12,America,Cuba,CUB,Havana,90129,0.06
@@ -40014,7 +40014,7 @@ Year,Month,Date,Continent,Country of residence,Code,Consulate,Spaniards,Variatio
 2012,December,12-01-12,America,Canada,CAN,Ottawa,646,0.05
 2012,December,12-01-12,America,Canada,CAN,Montreal,5562,0.25
 2012,December,12-01-12,America,Chile,CHL,Santiago de Chile,42696,0.17
-2012,December,12-01-12,America,Colombia,COL,Bogota ,11969,0.09
+2012,December,12-01-12,America,Colombia,COL,Bogota,11969,0.09
 2012,December,12-01-12,America,Colombia,COL,Cartagena De Indias,0,
 2012,December,12-01-12,America,Costa Rica,CRI,San Jose,5078,0.17
 2012,December,12-01-12,America,Cuba,CUB,Havana,93665,0.1
@@ -40318,7 +40318,7 @@ Year,Month,Date,Continent,Country of residence,Code,Consulate,Spaniards,Variatio
 2013,January,01-01-13,America,Canada,CAN,Ottawa,658,0.05
 2013,January,01-01-13,America,Canada,CAN,Montreal,5613,0.09
 2013,January,01-01-13,America,Chile,CHL,Santiago de Chile,43114,0.17
-2013,January,01-01-13,America,Colombia,COL,Bogota ,12359,0.13
+2013,January,01-01-13,America,Colombia,COL,Bogota,12359,0.13
 2013,January,01-01-13,America,Colombia,COL,Cartagena De Indias,0,
 2013,January,01-01-13,America,Costa Rica,CRI,San Jose,5158,0.18
 2013,January,01-01-13,America,Cuba,CUB,Havana,94208,0.1
@@ -40622,7 +40622,7 @@ Year,Month,Date,Continent,Country of residence,Code,Consulate,Spaniards,Variatio
 2013,February,02-01-13,America,Canada,CAN,Ottawa,656,0.05
 2013,February,02-01-13,America,Canada,CAN,Montreal,5638,0.08
 2013,February,02-01-13,America,Chile,CHL,Santiago de Chile,43418,0.18
-2013,February,02-01-13,America,Colombia,COL,Bogota ,12682,0.16
+2013,February,02-01-13,America,Colombia,COL,Bogota,12682,0.16
 2013,February,02-01-13,America,Colombia,COL,Cartagena De Indias,0,
 2013,February,02-01-13,America,Costa Rica,CRI,San Jose,5232,0.19
 2013,February,02-01-13,America,Cuba,CUB,Havana,95036,0.11
@@ -40926,7 +40926,7 @@ Year,Month,Date,Continent,Country of residence,Code,Consulate,Spaniards,Variatio
 2013,March,03-01-13,America,Canada,CAN,Ottawa,660,0.04
 2013,March,03-01-13,America,Canada,CAN,Montreal,5654,0.08
 2013,March,03-01-13,America,Chile,CHL,Santiago de Chile,43593,0.17
-2013,March,03-01-13,America,Colombia,COL,Bogota ,12927,0.17
+2013,March,03-01-13,America,Colombia,COL,Bogota,12927,0.17
 2013,March,03-01-13,America,Colombia,COL,Cartagena De Indias,0,
 2013,March,03-01-13,America,Costa Rica,CRI,San Jose,5290,0.19
 2013,March,03-01-13,America,Cuba,CUB,Havana,95799,0.11
@@ -41230,7 +41230,7 @@ Year,Month,Date,Continent,Country of residence,Code,Consulate,Spaniards,Variatio
 2013,April,04-01-13,America,Canada,CAN,Ottawa,660,0.03
 2013,April,04-01-13,America,Canada,CAN,Montreal,5687,0.08
 2013,April,04-01-13,America,Chile,CHL,Santiago de Chile,43878,0.17
-2013,April,04-01-13,America,Colombia,COL,Bogota ,13142,0.18
+2013,April,04-01-13,America,Colombia,COL,Bogota,13142,0.18
 2013,April,04-01-13,America,Colombia,COL,Cartagena De Indias,0,
 2013,April,04-01-13,America,Costa Rica,CRI,San Jose,5317,0.19
 2013,April,04-01-13,America,Cuba,CUB,Havana,96410,0.12
@@ -41534,7 +41534,7 @@ Year,Month,Date,Continent,Country of residence,Code,Consulate,Spaniards,Variatio
 2013,May,05-01-13,America,Canada,CAN,Ottawa,665,0.04
 2013,May,05-01-13,America,Canada,CAN,Montreal,5736,0.08
 2013,May,05-01-13,America,Chile,CHL,Santiago de Chile,44177,0.15
-2013,May,05-01-13,America,Colombia,COL,Bogota ,13338,0.18
+2013,May,05-01-13,America,Colombia,COL,Bogota,13338,0.18
 2013,May,05-01-13,America,Colombia,COL,Cartagena De Indias,0,
 2013,May,05-01-13,America,Costa Rica,CRI,San Jose,5369,0.19
 2013,May,05-01-13,America,Cuba,CUB,Havana,97729,0.12
@@ -41838,7 +41838,7 @@ Year,Month,Date,Continent,Country of residence,Code,Consulate,Spaniards,Variatio
 2013,June,06-01-13,America,Canada,CAN,Ottawa,675,0.06
 2013,June,06-01-13,America,Canada,CAN,Montreal,5806,0.08
 2013,June,06-01-13,America,Chile,CHL,Santiago de Chile,44452,0.13
-2013,June,06-01-13,America,Colombia,COL,Bogota ,13506,0.19
+2013,June,06-01-13,America,Colombia,COL,Bogota,13506,0.19
 2013,June,06-01-13,America,Colombia,COL,Cartagena De Indias,0,
 2013,June,06-01-13,America,Costa Rica,CRI,San Jose,5405,0.18
 2013,June,06-01-13,America,Cuba,CUB,Havana,98745,0.12
@@ -42142,7 +42142,7 @@ Year,Month,Date,Continent,Country of residence,Code,Consulate,Spaniards,Variatio
 2013,July,07-01-13,America,Canada,CAN,Ottawa,680,0.06
 2013,July,07-01-13,America,Canada,CAN,Montreal,5860,0.09
 2013,July,07-01-13,America,Chile,CHL,Santiago de Chile,44691,0.11
-2013,July,07-01-13,America,Colombia,COL,Bogota ,13706,0.19
+2013,July,07-01-13,America,Colombia,COL,Bogota,13706,0.19
 2013,July,07-01-13,America,Colombia,COL,Cartagena De Indias,0,
 2013,July,07-01-13,America,Costa Rica,CRI,San Jose,5418,0.15
 2013,July,07-01-13,America,Cuba,CUB,Havana,99639,0.13
@@ -42446,7 +42446,7 @@ Year,Month,Date,Continent,Country of residence,Code,Consulate,Spaniards,Variatio
 2013,August,08-01-13,America,Canada,CAN,Ottawa,680,0.05
 2013,August,08-01-13,America,Canada,CAN,Montreal,5868,0.08
 2013,August,08-01-13,America,Chile,CHL,Santiago de Chile,44815,0.11
-2013,August,08-01-13,America,Colombia,COL,Bogota ,13815,0.19
+2013,August,08-01-13,America,Colombia,COL,Bogota,13815,0.19
 2013,August,08-01-13,America,Colombia,COL,Cartagena De Indias,0,
 2013,August,08-01-13,America,Costa Rica,CRI,San Jose,5438,0.16
 2013,August,08-01-13,America,Cuba,CUB,Havana,100237,0.14
@@ -42750,7 +42750,7 @@ Year,Month,Date,Continent,Country of residence,Code,Consulate,Spaniards,Variatio
 2013,September,09-01-13,America,Canada,CAN,Ottawa,686,0.07
 2013,September,09-01-13,America,Canada,CAN,Montreal,5902,0.09
 2013,September,09-01-13,America,Chile,CHL,Santiago de Chile,45176,0.09
-2013,September,09-01-13,America,Colombia,COL,Bogota ,14231,0.21
+2013,September,09-01-13,America,Colombia,COL,Bogota,14231,0.21
 2013,September,09-01-13,America,Colombia,COL,Cartagena De Indias,0,
 2013,September,09-01-13,America,Costa Rica,CRI,San Jose,5482,0.15
 2013,September,09-01-13,America,Cuba,CUB,Havana,101092,0.13
@@ -43054,7 +43054,7 @@ Year,Month,Date,Continent,Country of residence,Code,Consulate,Spaniards,Variatio
 2013,October,10-01-13,America,Canada,CAN,Ottawa,688,0.07
 2013,October,10-01-13,America,Canada,CAN,Montreal,5947,0.1
 2013,October,10-01-13,America,Chile,CHL,Santiago de Chile,45392,0.08
-2013,October,10-01-13,America,Colombia,COL,Bogota ,14480,0.22
+2013,October,10-01-13,America,Colombia,COL,Bogota,14480,0.22
 2013,October,10-01-13,America,Colombia,COL,Cartagena De Indias,0,
 2013,October,10-01-13,America,Costa Rica,CRI,San Jose,5515,0.13
 2013,October,10-01-13,America,Cuba,CUB,Havana,101861,0.13
@@ -43358,7 +43358,7 @@ Year,Month,Date,Continent,Country of residence,Code,Consulate,Spaniards,Variatio
 2013,November,11-01-13,America,Canada,CAN,Ottawa,700,0.09
 2013,November,11-01-13,America,Canada,CAN,Montreal,5963,0.08
 2013,November,11-01-13,America,Chile,CHL,Santiago de Chile,45630,0.09
-2013,November,11-01-13,America,Colombia,COL,Bogota ,14581,0.22
+2013,November,11-01-13,America,Colombia,COL,Bogota,14581,0.22
 2013,November,11-01-13,America,Colombia,COL,Cartagena De Indias,0,
 2013,November,11-01-13,America,Costa Rica,CRI,San Jose,5532,0.13
 2013,November,11-01-13,America,Cuba,CUB,Havana,102788,0.14
@@ -43662,7 +43662,7 @@ Year,Month,Date,Continent,Country of residence,Code,Consulate,Spaniards,Variatio
 2013,December,12-01-13,America,Canada,CAN,Ottawa,704,0.09
 2013,December,12-01-13,America,Canada,CAN,Montreal,5994,0.08
 2013,December,12-01-13,America,Chile,CHL,Santiago de Chile,45893,0.07
-2013,December,12-01-13,America,Colombia,COL,Bogota ,14801,0.24
+2013,December,12-01-13,America,Colombia,COL,Bogota,14801,0.24
 2013,December,12-01-13,America,Colombia,COL,Cartagena De Indias,0,
 2013,December,12-01-13,America,Costa Rica,CRI,San Jose,5553,0.09
 2013,December,12-01-13,America,Cuba,CUB,Havana,103588,0.11
@@ -43966,7 +43966,7 @@ Year,Month,Date,Continent,Country of residence,Code,Consulate,Spaniards,Variatio
 2014,January,01-01-14,America,Canada,CAN,Ottawa,702,0.07
 2014,January,01-01-14,America,Canada,CAN,Montreal,5998,0.07
 2014,January,01-01-14,America,Chile,CHL,Santiago de Chile,46205,0.07
-2014,January,01-01-14,America,Colombia,COL,Bogota ,14990,0.21
+2014,January,01-01-14,America,Colombia,COL,Bogota,14990,0.21
 2014,January,01-01-14,America,Colombia,COL,Cartagena De Indias,0,
 2014,January,01-01-14,America,Costa Rica,CRI,San Jose,5581,0.08
 2014,January,01-01-14,America,Cuba,CUB,Havana,104234,0.11
@@ -44270,7 +44270,7 @@ Year,Month,Date,Continent,Country of residence,Code,Consulate,Spaniards,Variatio
 2014,February,02-01-14,America,Canada,CAN,Ottawa,704,0.07
 2014,February,02-01-14,America,Canada,CAN,Montreal,6006,0.07
 2014,February,02-01-14,America,Chile,CHL,Santiago de Chile,46310,0.07
-2014,February,02-01-14,America,Colombia,COL,Bogota ,15098,0.19
+2014,February,02-01-14,America,Colombia,COL,Bogota,15098,0.19
 2014,February,02-01-14,America,Colombia,COL,Cartagena De Indias,0,
 2014,February,02-01-14,America,Costa Rica,CRI,San Jose,5594,0.07
 2014,February,02-01-14,America,Cuba,CUB,Havana,104984,0.1
@@ -44574,7 +44574,7 @@ Year,Month,Date,Continent,Country of residence,Code,Consulate,Spaniards,Variatio
 2014,March,03-01-14,America,Canada,CAN,Ottawa,707,0.07
 2014,March,03-01-14,America,Canada,CAN,Montreal,6033,0.07
 2014,March,03-01-14,America,Chile,CHL,Santiago de Chile,46449,0.07
-2014,March,03-01-14,America,Colombia,COL,Bogota ,15279,0.18
+2014,March,03-01-14,America,Colombia,COL,Bogota,15279,0.18
 2014,March,03-01-14,America,Colombia,COL,Cartagena De Indias,0,
 2014,March,03-01-14,America,Costa Rica,CRI,San Jose,5605,0.06
 2014,March,03-01-14,America,Cuba,CUB,Havana,105030,0.1
@@ -44878,7 +44878,7 @@ Year,Month,Date,Continent,Country of residence,Code,Consulate,Spaniards,Variatio
 2014,April,04-01-14,America,Canada,CAN,Ottawa,705,0.07
 2014,April,04-01-14,America,Canada,CAN,Montreal,6062,0.07
 2014,April,04-01-14,America,Chile,CHL,Santiago de Chile,46544,0.06
-2014,April,04-01-14,America,Colombia,COL,Bogota ,15282,0.16
+2014,April,04-01-14,America,Colombia,COL,Bogota,15282,0.16
 2014,April,04-01-14,America,Colombia,COL,Cartagena De Indias,0,
 2014,April,04-01-14,America,Costa Rica,CRI,San Jose,5635,0.06
 2014,April,04-01-14,America,Cuba,CUB,Havana,106750,0.11
@@ -45182,7 +45182,7 @@ Year,Month,Date,Continent,Country of residence,Code,Consulate,Spaniards,Variatio
 2014,May,05-01-14,America,Canada,CAN,Ottawa,706,0.06
 2014,May,05-01-14,America,Canada,CAN,Montreal,6121,0.07
 2014,May,05-01-14,America,Chile,CHL,Santiago de Chile,46768,0.06
-2014,May,05-01-14,America,Colombia,COL,Bogota ,15492,0.16
+2014,May,05-01-14,America,Colombia,COL,Bogota,15492,0.16
 2014,May,05-01-14,America,Colombia,COL,Cartagena De Indias,0,
 2014,May,05-01-14,America,Costa Rica,CRI,San Jose,5665,0.06
 2014,May,05-01-14,America,Cuba,CUB,Havana,107423,0.1
@@ -45486,7 +45486,7 @@ Year,Month,Date,Continent,Country of residence,Code,Consulate,Spaniards,Variatio
 2014,June,06-01-14,America,Canada,CAN,Ottawa,713,0.06
 2014,June,06-01-14,America,Canada,CAN,Montreal,6179,0.06
 2014,June,06-01-14,America,Chile,CHL,Santiago de Chile,47270,0.06
-2014,June,06-01-14,America,Colombia,COL,Bogota ,16281,0.21
+2014,June,06-01-14,America,Colombia,COL,Bogota,16281,0.21
 2014,June,06-01-14,America,Colombia,COL,Cartagena De Indias,0,
 2014,June,06-01-14,America,Costa Rica,CRI,San Jose,5685,0.05
 2014,June,06-01-14,America,Cuba,CUB,Havana,108007,0.09
@@ -45790,7 +45790,7 @@ Year,Month,Date,Continent,Country of residence,Code,Consulate,Spaniards,Variatio
 2014,July,07-01-14,America,Canada,CAN,Ottawa,714,0.05
 2014,July,07-01-14,America,Canada,CAN,Montreal,6180,0.05
 2014,July,07-01-14,America,Chile,CHL,Santiago de Chile,47500,0.06
-2014,July,07-01-14,America,Colombia,COL,Bogota ,16606,0.21
+2014,July,07-01-14,America,Colombia,COL,Bogota,16606,0.21
 2014,July,07-01-14,America,Colombia,COL,Cartagena De Indias,0,
 2014,July,07-01-14,America,Costa Rica,CRI,San Jose,5708,0.05
 2014,July,07-01-14,America,Cuba,CUB,Havana,108574,0.09
@@ -46094,7 +46094,7 @@ Year,Month,Date,Continent,Country of residence,Code,Consulate,Spaniards,Variatio
 2014,August,08-01-14,America,Canada,CAN,Ottawa,717,0.05
 2014,August,08-01-14,America,Canada,CAN,Montreal,6201,0.06
 2014,August,08-01-14,America,Chile,CHL,Santiago de Chile,47750,0.07
-2014,August,08-01-14,America,Colombia,COL,Bogota ,17137,0.24
+2014,August,08-01-14,America,Colombia,COL,Bogota,17137,0.24
 2014,August,08-01-14,America,Colombia,COL,Cartagena De Indias,0,
 2014,August,08-01-14,America,Costa Rica,CRI,San Jose,5742,0.06
 2014,August,08-01-14,America,Cuba,CUB,Havana,109198,0.09
@@ -46398,7 +46398,7 @@ Year,Month,Date,Continent,Country of residence,Code,Consulate,Spaniards,Variatio
 2014,September,09-01-14,America,Canada,CAN,Ottawa,716,0.04
 2014,September,09-01-14,America,Canada,CAN,Montreal,6223,0.05
 2014,September,09-01-14,America,Chile,CHL,Santiago de Chile,47967,0.06
-2014,September,09-01-14,America,Colombia,COL,Bogota ,17480,0.23
+2014,September,09-01-14,America,Colombia,COL,Bogota,17480,0.23
 2014,September,09-01-14,America,Colombia,COL,Cartagena De Indias,0,
 2014,September,09-01-14,America,Costa Rica,CRI,San Jose,5757,0.05
 2014,September,09-01-14,America,Cuba,CUB,Havana,110035,0.09
@@ -46702,7 +46702,7 @@ Year,Month,Date,Continent,Country of residence,Code,Consulate,Spaniards,Variatio
 2014,October,10-01-14,America,Canada,CAN,Ottawa,721,0.05
 2014,October,10-01-14,America,Canada,CAN,Montreal,6231,0.05
 2014,October,10-01-14,America,Chile,CHL,Santiago de Chile,48222,0.06
-2014,October,10-01-14,America,Colombia,COL,Bogota ,17708,0.22
+2014,October,10-01-14,America,Colombia,COL,Bogota,17708,0.22
 2014,October,10-01-14,America,Colombia,COL,Cartagena De Indias,0,
 2014,October,10-01-14,America,Costa Rica,CRI,San Jose,5780,0.05
 2014,October,10-01-14,America,Cuba,CUB,Havana,110771,0.09
@@ -47006,7 +47006,7 @@ Year,Month,Date,Continent,Country of residence,Code,Consulate,Spaniards,Variatio
 2014,November,11-01-14,America,Canada,CAN,Ottawa,713,0.02
 2014,November,11-01-14,America,Canada,CAN,Montreal,6252,0.05
 2014,November,11-01-14,America,Chile,CHL,Santiago de Chile,48454,0.06
-2014,November,11-01-14,America,Colombia,COL,Bogota ,17906,0.23
+2014,November,11-01-14,America,Colombia,COL,Bogota,17906,0.23
 2014,November,11-01-14,America,Colombia,COL,Cartagena De Indias,0,
 2014,November,11-01-14,America,Costa Rica,CRI,San Jose,5803,0.05
 2014,November,11-01-14,America,Cuba,CUB,Havana,111219,0.08
@@ -47310,7 +47310,7 @@ Year,Month,Date,Continent,Country of residence,Code,Consulate,Spaniards,Variatio
 2014,December,12-01-14,America,Canada,CAN,Ottawa,710,0.01
 2014,December,12-01-14,America,Canada,CAN,Montreal,6278,0.05
 2014,December,12-01-14,America,Chile,CHL,Santiago de Chile,48675,0.06
-2014,December,12-01-14,America,Colombia,COL,Bogota ,15586,0.05
+2014,December,12-01-14,America,Colombia,COL,Bogota,15586,0.05
 2014,December,12-01-14,America,Colombia,COL,Cartagena De Indias,2571,
 2014,December,12-01-14,America,Costa Rica,CRI,San Jose,5826,0.05
 2014,December,12-01-14,America,Cuba,CUB,Havana,111774,0.08
@@ -47614,7 +47614,7 @@ Year,Month,Date,Continent,Country of residence,Code,Consulate,Spaniards,Variatio
 2015,January,01-01-15,America,Canada,CAN,Ottawa,720,0.03
 2015,January,01-01-15,America,Canada,CAN,Montreal,4999,-0.17
 2015,January,01-01-15,America,Chile,CHL,Santiago de Chile,48960,0.06
-2015,January,01-01-15,America,Colombia,COL,Bogota ,15745,0.05
+2015,January,01-01-15,America,Colombia,COL,Bogota,15745,0.05
 2015,January,01-01-15,America,Colombia,COL,Cartagena De Indias,2599,
 2015,January,01-01-15,America,Costa Rica,CRI,San Jose,5835,0.05
 2015,January,01-01-15,America,Cuba,CUB,Havana,112300,0.08
@@ -47918,7 +47918,7 @@ Year,Month,Date,Continent,Country of residence,Code,Consulate,Spaniards,Variatio
 2015,February,02-01-15,America,Canada,CAN,Ottawa,724,0.03
 2015,February,02-01-15,America,Canada,CAN,Montreal,5015,-0.17
 2015,February,02-01-15,America,Chile,CHL,Santiago de Chile,49229,0.06
-2015,February,02-01-15,America,Colombia,COL,Bogota ,15787,0.05
+2015,February,02-01-15,America,Colombia,COL,Bogota,15787,0.05
 2015,February,02-01-15,America,Colombia,COL,Cartagena De Indias,2622,
 2015,February,02-01-15,America,Costa Rica,CRI,San Jose,5849,0.05
 2015,February,02-01-15,America,Cuba,CUB,Havana,113006,0.08
@@ -48222,7 +48222,7 @@ Year,Month,Date,Continent,Country of residence,Code,Consulate,Spaniards,Variatio
 2015,March,03-01-15,America,Canada,CAN,Ottawa,730,0.03
 2015,March,03-01-15,America,Canada,CAN,Montreal,5021,-0.17
 2015,March,03-01-15,America,Chile,CHL,Santiago de Chile,49402,0.06
-2015,March,03-01-15,America,Colombia,COL,Bogota ,15968,0.05
+2015,March,03-01-15,America,Colombia,COL,Bogota,15968,0.05
 2015,March,03-01-15,America,Colombia,COL,Cartagena De Indias,2653,
 2015,March,03-01-15,America,Costa Rica,CRI,San Jose,5872,0.05
 2015,March,03-01-15,America,Cuba,CUB,Havana,113647,0.08
@@ -48526,7 +48526,7 @@ Year,Month,Date,Continent,Country of residence,Code,Consulate,Spaniards,Variatio
 2015,April,04-01-15,America,Canada,CAN,Ottawa,732,0.04
 2015,April,04-01-15,America,Canada,CAN,Montreal,5030,-0.17
 2015,April,04-01-15,America,Chile,CHL,Santiago de Chile,49498,0.06
-2015,April,04-01-15,America,Colombia,COL,Bogota ,16086,0.05
+2015,April,04-01-15,America,Colombia,COL,Bogota,16086,0.05
 2015,April,04-01-15,America,Colombia,COL,Cartagena De Indias,2669,
 2015,April,04-01-15,America,Costa Rica,CRI,San Jose,5892,0.05
 2015,April,04-01-15,America,Cuba,CUB,Havana,114373,0.07
@@ -48830,7 +48830,7 @@ Year,Month,Date,Continent,Country of residence,Code,Consulate,Spaniards,Variatio
 2015,May,05-01-15,America,Canada,CAN,Ottawa,737,0.04
 2015,May,05-01-15,America,Canada,CAN,Montreal,5042,-0.18
 2015,May,05-01-15,America,Chile,CHL,Santiago de Chile,49739,0.06
-2015,May,05-01-15,America,Colombia,COL,Bogota ,16280,0.05
+2015,May,05-01-15,America,Colombia,COL,Bogota,16280,0.05
 2015,May,05-01-15,America,Colombia,COL,Cartagena De Indias,2690,
 2015,May,05-01-15,America,Costa Rica,CRI,San Jose,5907,0.04
 2015,May,05-01-15,America,Cuba,CUB,Havana,114787,0.07
@@ -49134,7 +49134,7 @@ Year,Month,Date,Continent,Country of residence,Code,Consulate,Spaniards,Variatio
 2015,June,06-01-15,America,Canada,CAN,Ottawa,741,0.04
 2015,June,06-01-15,America,Canada,CAN,Montreal,5050,-0.18
 2015,June,06-01-15,America,Chile,CHL,Santiago de Chile,49982,0.06
-2015,June,06-01-15,America,Colombia,COL,Bogota ,16550,0.02
+2015,June,06-01-15,America,Colombia,COL,Bogota,16550,0.02
 2015,June,06-01-15,America,Colombia,COL,Cartagena De Indias,2745,
 2015,June,06-01-15,America,Costa Rica,CRI,San Jose,5925,0.04
 2015,June,06-01-15,America,Cuba,CUB,Havana,115208,0.07
@@ -49438,7 +49438,7 @@ Year,Month,Date,Continent,Country of residence,Code,Consulate,Spaniards,Variatio
 2015,July,07-01-15,America,Canada,CAN,Ottawa,744,0.04
 2015,July,07-01-15,America,Canada,CAN,Montreal,5049,-0.18
 2015,July,07-01-15,America,Chile,CHL,Santiago de Chile,50227,0.06
-2015,July,07-01-15,America,Colombia,COL,Bogota ,16797,0.01
+2015,July,07-01-15,America,Colombia,COL,Bogota,16797,0.01
 2015,July,07-01-15,America,Colombia,COL,Cartagena De Indias,2783,
 2015,July,07-01-15,America,Costa Rica,CRI,San Jose,5954,0.04
 2015,July,07-01-15,America,Cuba,CUB,Havana,115490,0.06
@@ -49742,7 +49742,7 @@ Year,Month,Date,Continent,Country of residence,Code,Consulate,Spaniards,Variatio
 2015,August,08-01-15,America,Canada,CAN,Ottawa,750,0.05
 2015,August,08-01-15,America,Canada,CAN,Montreal,5047,-0.19
 2015,August,08-01-15,America,Chile,CHL,Santiago de Chile,50421,0.06
-2015,August,08-01-15,America,Colombia,COL,Bogota ,16975,-0.01
+2015,August,08-01-15,America,Colombia,COL,Bogota,16975,-0.01
 2015,August,08-01-15,America,Colombia,COL,Cartagena De Indias,2826,
 2015,August,08-01-15,America,Costa Rica,CRI,San Jose,5991,0.04
 2015,August,08-01-15,America,Cuba,CUB,Havana,116146,0.06
@@ -50046,7 +50046,7 @@ Year,Month,Date,Continent,Country of residence,Code,Consulate,Spaniards,Variatio
 2015,September,09-01-15,America,Canada,CAN,Ottawa,755,0.05
 2015,September,09-01-15,America,Canada,CAN,Montreal,5052,-0.19
 2015,September,09-01-15,America,Chile,CHL,Santiago de Chile,50592,0.05
-2015,September,09-01-15,America,Colombia,COL,Bogota ,17198,-0.02
+2015,September,09-01-15,America,Colombia,COL,Bogota,17198,-0.02
 2015,September,09-01-15,America,Colombia,COL,Cartagena De Indias,2849,
 2015,September,09-01-15,America,Costa Rica,CRI,San Jose,6032,0.05
 2015,September,09-01-15,America,Cuba,CUB,Havana,116655,0.06
@@ -50350,7 +50350,7 @@ Year,Month,Date,Continent,Country of residence,Code,Consulate,Spaniards,Variatio
 2015,October,10-01-15,America,Canada,CAN,Ottawa,746,0.03
 2015,October,10-01-15,America,Canada,CAN,Montreal,5059,-0.19
 2015,October,10-01-15,America,Chile,CHL,Santiago de Chile,50759,0.05
-2015,October,10-01-15,America,Colombia,COL,Bogota ,17600,-0.01
+2015,October,10-01-15,America,Colombia,COL,Bogota,17600,-0.01
 2015,October,10-01-15,America,Colombia,COL,Cartagena De Indias,2873,
 2015,October,10-01-15,America,Costa Rica,CRI,San Jose,6060,0.05
 2015,October,10-01-15,America,Cuba,CUB,Havana,117453,0.06
@@ -50654,7 +50654,7 @@ Year,Month,Date,Continent,Country of residence,Code,Consulate,Spaniards,Variatio
 2015,November,11-01-15,America,Canada,CAN,Ottawa,749,0.05
 2015,November,11-01-15,America,Canada,CAN,Montreal,5074,-0.19
 2015,November,11-01-15,America,Chile,CHL,Santiago de Chile,50995,0.05
-2015,November,11-01-15,America,Colombia,COL,Bogota ,17976,0
+2015,November,11-01-15,America,Colombia,COL,Bogota,17976,0
 2015,November,11-01-15,America,Colombia,COL,Cartagena De Indias,2885,
 2015,November,11-01-15,America,Costa Rica,CRI,San Jose,6136,0.06
 2015,November,11-01-15,America,Cuba,CUB,Havana,118469,0.07

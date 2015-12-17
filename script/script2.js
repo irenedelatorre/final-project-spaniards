@@ -457,7 +457,8 @@ function drawGraph (dataArray){
         .attr("transform", function(d) { if (d.depth==0) {return "translate (0,0)"}else{return "translate(" + arc.centroid(d) + ")" + "rotate(" + getAngle(d) + ")"; }})
         .attr("dx", "6") // margin
         .attr("dy", ".35em") // vertical-align
-        .style("fill", "#fff");
+        .style("fill", "#fff")
+        ;
 //exit
     text.exit().transition().remove();
 
