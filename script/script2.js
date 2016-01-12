@@ -142,8 +142,8 @@ var arc = d3.svg.arc()
 
 //IMPORT DATASETS
 queue()
-    .defer(d3.csv,'/data/spaniards_registered_abroad-CERA.csv',parseData)
-    .defer(d3.csv,'/data/spaniards_registered_abroad-CERA_continents-nov.csv',parseDataCont)
+    .defer(d3.csv,'data/spaniards_registered_abroad-CERA.csv',parseData)
+    .defer(d3.csv,'data/spaniards_registered_abroad-CERA_continents-nov.csv',parseDataCont)
     .await(dataLoaded);
 
 var continent_names = [];
